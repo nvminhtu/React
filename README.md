@@ -5,6 +5,8 @@
 * Babel
 * Webpack
 * NPM
+[Pre-Pack REACTJS](#): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
+
 ### Cài đặt ứng dụng React JS đầu tiên:
 * Bài viết này giúp cài đặt ứng dụng React đầu tiên,
 [First React Project](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
