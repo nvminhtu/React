@@ -1,10 +1,14 @@
 # REACT JS LEARNING & ROADMAP
+
 ## ROADMAP
+
 ### Khi mới chuyển qua: Các kĩ thuật cần nắm
+
 * ECMAScript 6 (ES6)
 * Babel
 * Webpack
 * NPM
+
 [Pre-Pack REACTJS](#): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
 
 ### Cài đặt ứng dụng React JS đầu tiên:
