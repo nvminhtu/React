@@ -9,7 +9,7 @@
 * Webpack
 * NPM
 
-[Pre-Pack REACTJS](#): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
+[Pre-Pack REACTJS](https://github.com/nvminhtu/React/tree/master/prepack-reactjs): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
 
 ### [Level 0] Cài đặt ứng dụng React JS đầu tiên:
 * Bài viết này giúp cài đặt ứng dụng React đầu tiên,
