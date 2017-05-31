@@ -5,8 +5,9 @@
 * [LEVEL 4-6]: Junior React JS Developere (trên 4 dự án thực hiện)
 * [LEVEL 6-10]: React JS Developer
 * [DEMO 1] - Ứng dụng web load dữ liệu các khóa học cơ bản từ 1 file JSON có sẵn
-* [DEMO 2] - Ứng dụng web cho phép tìm kiếm t
-### Khi mới chuyển qua: Các kĩ thuật cần nắm
+* [DEMO 2] - Ứng dụng web cho phép tìm kiếm tour/chuyến đi phượt
+
+## Khi mới chuyển qua: Các kĩ thuật cần nắm
 
 * ECMAScript 6 (ES6)
 * Babel
@@ -14,6 +15,8 @@
 * NPM
 
 [Pre-Pack REACTJS](https://github.com/nvminhtu/React/tree/master/prepack-reactjs): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
+### NPM
+* [NPM Source](https://github.com/nvminhtu/React/tree/master/prepack-reactjs/npm)
 
 ### [Level 0] Cài đặt ứng dụng React JS đầu tiên:
 * Cài đặt ReactJS trước [ReactJS Installation](https://facebook.github.io/react/docs/installation.html)
