@@ -1,24 +1,41 @@
 # REACT JS LEARNING & ROADMAP
 
-## ROADMAP
+## 1.ROADMAP
+
+### 1.1 LEVEL
+
 * [LEVEL 1-3]: Fresh React JS Developers
 * [LEVEL 4-6]: Junior React JS Developere (trên 4 dự án thực hiện)
 * [LEVEL 6-10]: React JS Developer
+* [LEVEL 10-15]: Senior React JS Developer
+* [LEVEL 15-N]: Master React JS Developer
+> Tương ứng với mỗi cấp level là danh sách các lý thuyết, thực hành cũng như dự án của chúng ta.s
+
+### 1.2 ỨNG DỤNG THỰC TIỂN
 * [DEMO 1] - Ứng dụng web load dữ liệu các khóa học cơ bản từ 1 file JSON có sẵn
 * [DEMO 2] - Ứng dụng web cho phép tìm kiếm tour/chuyến đi phượt
+* [DEMO 3] - Ứng dụng web Blog đơn giản.
 
-## Khi mới chuyển qua: Các kĩ thuật cần nắm
+## 2. CHƯƠNG TRÌNH
+
+### 2.1 PREPACK REACJS (Những kiến thức cần nắm trước khi làm REACT JS)
 
 * ECMAScript 6 (ES6)
 * Babel
 * Webpack
 * NPM
-
 [Pre-Pack REACTJS](https://github.com/nvminhtu/React/tree/master/prepack-reactjs): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
-### NPM
+
+#### NPM
 * [NPM Source](https://github.com/nvminhtu/React/tree/master/prepack-reactjs/npm)
 
-### [Level 0] Cài đặt ứng dụng React JS đầu tiên:
+#### BABEL & ES6
+
+#### WEBPACK
+
+### 2.2 REACT JS
+
+#### [Level 0] CÀI ĐẶT:
 * Cài đặt ReactJS trước [ReactJS Installation](https://facebook.github.io/react/docs/installation.html)
 * Bài viết này giúp cài đặt ứng dụng React đầu tiên,
 [First React Project](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
@@ -39,7 +56,7 @@
 * Testing [Lint JS]
 
 ## BEGINNER
-# TOPICS
-# RESOURCES
+## TOPICS
+## RESOURCES
 ## Tài liệu chính chủ
 * [React Documentation](https://facebook.github.io/react/docs/hello-world.html)
