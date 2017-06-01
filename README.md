@@ -9,9 +9,9 @@
 * [LEVEL 6-10]: React JS Developer
 * [LEVEL 10-15]: Senior React JS Developer
 * [LEVEL 15-N]: Master React JS Developer
-> Tương ứng với mỗi cấp level là danh sách các lý thuyết, thực hành cũng như dự án của chúng ta.s
+> Tương ứng với mỗi cấp level là danh sách các lý thuyết, thực hành cũng như dự án của chúng ta.
 
-### 1.2 ỨNG DỤNG THỰC TIỂN
+### 1.2 ỨNG DỤNG THỰC TIỄN
 * [DEMO 1] - Ứng dụng web load dữ liệu các khóa học cơ bản từ 1 file JSON có sẵn
 * [DEMO 2] - Ứng dụng web cho phép tìm kiếm tour/chuyến đi phượt
 * [DEMO 3] - Ứng dụng web Blog đơn giản.
@@ -36,8 +36,8 @@
 ### 2.2 REACT JS
 
 #### [Level 0] CÀI ĐẶT:
-* Cài đặt ReactJS trước [ReactJS Installation](https://facebook.github.io/react/docs/installation.html)
-* Bài viết này giúp cài đặt ứng dụng React đầu tiên,
+* Cài đặt ReactJS (trang chủ FB) trước [ReactJS Installation](https://facebook.github.io/react/docs/installation.html)
+* Bài viết này cũng dễ hiểu giúp cài đặt ứng dụng React đầu tiên,
 [First React Project](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
 
 ### [Level 1] Các kĩ thuật cơ bản trong React JS
@@ -52,7 +52,7 @@
 * Redux - ###
 * Observers and reacnative solutions (nếu không thích sử dụng Flux hoặc Redux và muốn cách tối ưu hơn)
 
-### [Level 3] Các kĩ thuật hỗ trợ trong ReactJS
+### [Level 3] Các kĩ thuật hỗ trợ trong React JS
 * Testing [Lint JS]
 
 ## BEGINNER
