@@ -23,3 +23,6 @@
 * Cài đặt thêm dependencies
 * Importing a Component
 * Code Splitting (tách code ra từng files riêng để dẽ quản lý)
+* Adding a Stylesheet
+* Adding a CSS Preprocessor (Sass, Less etc.)
+
