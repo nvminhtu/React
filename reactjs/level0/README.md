@@ -15,4 +15,11 @@
 ## Source code đã build 
 * Sử dụng package create-react-app
 [Create React App](https://facebook.github.io/react/docs/installation.html)
-* [Bản demo sau khi cài đặt](https://facebook.github.io/react/docs/installation.html)
+* Tạo 1 board game layout với ReactJS 
+[Bản demo đã tạo](https://github.com/nvminhtu/React/tree/master/reactjs/first/my-app)
+
+## Nâng cao
+[xem trong README của Source code](https://github.com/nvminhtu/React/tree/master/reactjs/first/my-app)
+* Cài đặt thêm dependencies
+* Importing a Component
+* Code Splitting (tách code ra từng files riêng để dẽ quản lý)
