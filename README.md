@@ -30,18 +30,18 @@
 * [NPM Source](https://github.com/nvminhtu/React/tree/master/prepack-reactjs/npm)
 
 #### BABEL & ES6
-*
+* [Git Source chuyên về ES6](https://github.com/nvminhtu/LearnES6)
 
 #### WEBPACK
-*
+* [Git source chuyên về Webpack](https://github.com/nvminhtu/webpack-run)
 
 ### 2.2 REACT JS
 
 #### [<Level 0> CÀI ĐẶT & EDITOR](https://github.com/nvminhtu/React/tree/master/reactjs/level0/):
-* Cài đặt ReactJS (trang chủ FB) trước [ReactJS Installation](https://facebook.github.io/react/docs/installation.html)
-* Bài viết này cũng dễ hiểu giúp cài đặt ứng dụng React đầu tiên,
-[First React Project](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
-* Nên sử dụng: Webstorm IDE
+* Cài đặt ReactJS 
+* Tạo 1 project đầu tiên với ReactJS
+* Sử dụng NPM create-react-app của Facebook tạo reactjs project.
+* Editor sử dụng để code React JS
 
 ### [Level 1] Các kĩ thuật cơ bản trong React JS
 * Routing: bất kỳ ứng dụng Client Side Application nào cũng cần có Routing [React-Router]
