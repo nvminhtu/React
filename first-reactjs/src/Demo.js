@@ -1,15 +1,20 @@
 import React from 'react';
 
 import './Demo.css';
-var hoTen ="bui phu";
+
 class Demo extends React.Component{
+   constructor(props){
+       super(props);
+      this.hoTen ="ReactJS";
+   }
     render(){
         return (
             <div>
-             <h1 className="text"> {hoTen} say  Hello ReactJS with Demo Component</h1>
+            
+             <h1 className="text">{this.hoTen} say  Hello ReactJS with Demo Component</h1>
              <Other />
             </div>
-           
+
         );
     }
 }

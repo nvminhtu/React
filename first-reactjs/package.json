@@ -4,11 +4,17 @@
   "private": true,
   "dependencies": {
     "hello_pkg": "^1.0.7",
+    "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "tooltip": "^1.6.1"
+    "tooltip": "^1.6.1",
+    "webpack": "^2.6.1"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "react-scripts": "1.0.7"
   },
   "scripts": {
