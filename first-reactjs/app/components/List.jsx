@@ -1,31 +1,24 @@
-import React,{Component} from 'react';
-import ReactDOM from 'react-dom';
-import Item from './Item.jsx';
-import Add from './Add.jsx';
-export default class List extends Component {
+import React from 'react';
+import Add  from './Add.jsx';
+import Item  from './Item.jsx';
+import {connect} from 'react-redux';
+class List extends React.Component {
     constructor(props){
         super(props);
-        this.state = {
-            lists : []
-        }
-        this.listAdd = this.listAdd.bind(this);
-    }
-    listAdd(value){
-        this.state.lists.push(value);
-        this.setState(this.state);
     }
     render(){
         return (
             <div>
-                <Add addItem={this.listAdd} />
-                <div>
-                    {
-                        this.state.lists.map((item,index)=>{
-                             return <Item key={index}>{item}</Item>
-                        })
-                    }
-                </div>
-            </div>
+                <Add  />
+                {
+                    this.props.lists.map((value,index)=>(
+                        <Item key={index} index={index}  >{value}</Item>
+                    ))
+                }
+            </div>        
         );
     }
 }
+export default connect(function(state){
+    return {lists : state.lists};
+})(List);

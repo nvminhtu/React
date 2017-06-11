@@ -1,34 +1,38 @@
-import React,{Component} from 'react';
-import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
-export default class Add extends Component {
+import React from 'react';
+import {connect} from 'react-redux';
+import { actionAddItem,actionIsAdding} from '../Action.jsx';
+class Add extends React.Component{
     constructor(props){
         super(props);
-        this.add = this.add.bind(this);
-        this.state = {
-            txt : ''
-        }
-        this.handleChange = this.handleChange.bind(this);
+        this.addItem = this.addItem.bind(this);
+        this.toggleAdding = this.toggleAdding.bind(this);
+        this.dispatch = props.dispatch;
     }
-    handleChange(e){
-        this.state.txt = e.target.value;
-        this.setState(this.state);
+    addItem(){
+        this.dispatch(actionAddItem(this.refs.txt.value));
+        this.dispatch(actionIsAdding());
     }
-    add(){
-        if(isNaN(this.state.txt) === true && this.state.txt != ""){
-            this.props.addItem(this.state.txt);
-            this.state.txt = '';
-        }
+    toggleAdding(){
+        this.dispatch(actionIsAdding());
     }
     render(){
+        if(!this.props.isAdding){
+            return <button onClick={this.toggleAdding}>+</button>
+        }
         return (
             <div>
-                <input type='text' value={this.state.txt} onChange={this.handleChange} />
-                <button onClick={this.add}>Add</button>
+            <form>
+                <input type="text" ref='txt' />
+                <button onClick={this.addItem} onKeyPress={ () => {
+                    if(event.keyCode == 13) this.addItem;
+                }} >Add</button>
+            </form>
+                
             </div>
+           
         );
     }
 }
-Add.propTypes = {
-    addItem : PropTypes.func
-}
+export default connect((state)=>(
+    {isAdding: state.isAdding}
+))(Add);
