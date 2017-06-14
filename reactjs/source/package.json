@@ -26,6 +26,7 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "chance": "^1.0.9",
     "history": "^4.6.2",
     "react": "^15.6.0",
     "react-dom": "^15.6.0",
