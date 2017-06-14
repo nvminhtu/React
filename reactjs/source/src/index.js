@@ -1,1 +1,7 @@
-console.log('React is up and running!');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+ReactDOM.render(
+    document.getElementById('app')
+);
