@@ -1,12 +1,38 @@
 # BÀI 3: JSX - làm quen và sử dụng
 
-import React from 'react' loads the React library, which is pretty 
-central to our whole application and thus is required.
+* Tạo file 'src/pages/Detail.js' chúng ta tạo 1 Component đơn giản sau
 
-class Detail extends React.Component { defines a new React component. React components can be big (like pages) or small (like a custom component to render breadcrumbs) and they are very flexible.
+Chúng ta tạo 1 component đơn giản tên `React`
+```
+import React from 'react';
 
-render() { starts the render() method of our component. This is called by React when the component needs to be drawn to the screen, and needs to return something that can be drawn in the browser.
+class Detail extends React.Component {
+    render() {
+        return <p>This is React rendering HTML!</p>;
+    }
+}
 
-What's left in this class is just the closing brace } that ends the render() method and the second closing brace that ends the class we're creating.
+export default Detail;
 
-export default Detail; The "export" keyword means this component is being exposed to the rest of our app to use, and "default" means it's the only thing this class will expose.
+```
+
+* Chỉnh sửa file `src/index.js`
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+import Detail from './pages/Detail';
+
+ReactDOM.render(
+    <Detail />, // gọi component Detail mà chúng ta đã tạo ở file Detail.js
+    document.getElementById('app')
+);
+```
+
+Một số ghi chú:
+```
+* Why does Detail.js have a capital letter? This isn't needed, but it's stylistically preferred.
+* How does JSX know what <Detail /> means? We don't give the component a name inside Detail.js, so instead the name comes from the way we import it: if you use import Bob from './pages/Detail'; then you could write <Bob /> and it would work just fine. (But please don't do that if you value your sanity!)
+* Can I put lots of components in Detail.js? You can if you want to, but again it's preferable not to if you value your sanity. Stick to one component per file if you can.
+* Do I have to render stuff inside my component? No, but React does need something to render at this point. When you're a more experienced React developer you'll learn more about this.
+```
