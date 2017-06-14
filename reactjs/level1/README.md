@@ -11,6 +11,9 @@
 * React Router
 * Fetch Data
 
+## Các bài viết tham khảo
+[React Router - phân biệt cách dùng](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) - vì có tới 3 package chúng ta cần phân biệt (react-router, react-router-dom, reat-router-native)
+
 ## Thực hành (step by step):
 ### BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel
 ### BÀI 2: Sử dụng Webpack với React JS
