@@ -11,22 +11,10 @@
 * React Router
 * Fetch Data
 
-## Thực hành
-### Khởi tạo project ReactJS với NodeJS + Webpack + Babel
-
-* Tạo folder:
-`mkdir practice`
-
-* Khởi tạo 1 project mới với npm:
-`npm init -y`
-
-* Cài đặt các package cần sử dụng:
-```
-npm install --save-dev webpack webpack-dev-server react-hot-loader
-npm install --save-dev babel-core babel-loader
-npm install --save-dev babel-preset-es2015 babel-preset-react
-npm install --save react react-dom history react-router
-``
+## Thực hành (step by step):
+### BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel
+### BÀI 2: Sử dụng Webpack với React JS
 
 
-
+## SOURCE CODE bài thực hành lưu tại:
+* [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
