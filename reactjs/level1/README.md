@@ -14,9 +14,19 @@
 ## Thực hành
 ### Khởi tạo project ReactJS với NodeJS + Webpack + Babel
 
-`npm install --save-dev webpack webpack-dev-server react-hot-loader
+* Tạo folder:
+`mkdir practice`
+
+* Khởi tạo 1 project mới với npm:
+`npm init -y`
+
+* Cài đặt các package cần sử dụng:
+```
+npm install --save-dev webpack webpack-dev-server react-hot-loader
 npm install --save-dev babel-core babel-loader
 npm install --save-dev babel-preset-es2015 babel-preset-react
-npm install --save react react-dom history react-router`
+npm install --save react react-dom history react-router
+``
+
 
 
