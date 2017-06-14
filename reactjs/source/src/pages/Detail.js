@@ -22,16 +22,39 @@ class Detail extends React.Component {
 		    </div>);
 		}
 	*/
+	
+	// constructor
+	constructor(props) {
+	    super(props);
 
-	// event trong JSX
-	buttonClicked() {
-		console.log('Button was clicked!');
+	    this.state = {
+	        name: chance.first(),
+	        country: chance.country({ full: true })
+	    };
 	}
+	
+	// componentWillMount() {
+	//    this.setState({
+ //        	name: 'test'
+ //      })
+	// }
+	
+	buttonClicked(){
+		console.log("Hello from here");
+		
+	}
+	/* 
+		// event trong JSX
+		buttonClicked() {
+			console.log('Button was clicked!');
+		}
+	*/
+
 
 	render() {
         return (<div>
-            <p>Hello, {chance.first()}.</p>
-            <p>You're from {chance.country({ full: true })}.</p>
+            <p>Hello, {this.state.name}.</p>
+            <p>You're from {this.state.country}.</p>
             <button onClick={this.buttonClicked}>Click me please!</button>
         </div>);
     }
