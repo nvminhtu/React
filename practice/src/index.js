@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import DetailComponent from './pages/Detail'
 class Demo extends React.Component {
     render(){
         return (
-            <h1>Hello ReactJS</h1>
+            <div>
+                <h1>Hello ReactJS</h1>
+                <DetailComponent/>
+            </div>
+            
         );
     }
 }
