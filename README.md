@@ -43,7 +43,7 @@
 * Sử dụng NPM create-react-app của Facebook tạo reactjs project.
 * Editor sử dụng để code React JS
 
-### [Level 1] Các kĩ thuật cơ bản trong React JS
+### [<Level 1> Các kĩ thuật cơ bản trong React JS](https://github.com/nvminhtu/React/tree/master/reactjs/level1)
 * Routing: bất kỳ ứng dụng Client Side Application nào cũng cần có Routing [React-Router]
 * Classes: React JS làm việc rất tốt với CLASS (do sử dụng ES6)
 * PropType: kiểm tra thuộc tính
