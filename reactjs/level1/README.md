@@ -15,9 +15,12 @@
 * [React Router - phân biệt cách dùng](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) - vì có tới 3 package chúng ta cần phân biệt (react-router, react-router-dom, reat-router-native)
 
 ## Thực hành (step by step):
+
 ### BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel
 ### BÀI 2: Sử dụng Webpack với React JS
-
+### BÀI 3: JSX - làm quen và sử dụng
+### BÀI 4: React Props + CHANCE Library (để thử nghiệm)
+### BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX.
 
 ## SOURCE CODE bài thực hành lưu tại:
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
