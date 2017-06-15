@@ -67,3 +67,7 @@
 ## RESOURCES
 ## Tài liệu chính chủ
 * [React Documentation](https://facebook.github.io/react/docs/hello-world.html)
+
+
+## 2. VIDEO
+* [React Tutorial](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
