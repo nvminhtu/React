@@ -12,6 +12,7 @@ class Demo extends React.Component {
         );
     }
 }
+
 ReactDOM.render(
     <Demo />,
     document.getElementById('app')
