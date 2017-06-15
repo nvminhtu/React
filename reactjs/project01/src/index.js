@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Detail from './pages/Detail';
-// import Cat from './others/Cat';
+import OneFeed from './pages/OneFeed';
+import MultiFeeds from './pages/MultiFeeds';
 
 ReactDOM.render(
-    <Detail message="Hello React developers!" />,
-    // <Cat />,
+	// <OneFeed />,
+	<MultiFeeds />,
     document.getElementById('app')
 );
