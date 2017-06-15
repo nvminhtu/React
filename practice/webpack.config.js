@@ -4,15 +4,17 @@ module.exports = {
     entry: [
         'webpack-dev-server/client?http://localhost:8080',
         'webpack/hot/only-dev-server',
-        './src/index.js'
+        './src/index.jsx'
     ],
     module : {
         loaders: [{
-            test:/\.js?$/,
+            test: /\.jsx?$/,
+            loader: 'babel-loader',
             exclude: /node_modules/,
-            loader : 'react-hot-loader!babel-loader'
+            query: {
+                presets: ['react','es2015','stage-0']
+            }
         }]
-
     },
     resolve : {
         extensions : ['.js','.jsx']
