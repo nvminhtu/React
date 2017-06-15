@@ -1,3 +1,4 @@
+// Detail page
 import React from 'react';
 import Chance from 'chance';
 
