@@ -32,6 +32,8 @@ class Detail extends React.Component {
 	        name: chance.first(),
 	        country: chance.country({ full: true })
 	    };
+        this.handleChangeName = this.handleChangeName.bind(this);
+        this.handleChangeCountry = this.handleChangeCountry.bind(this);
 	}
 	
 	// componentWillMount() {
@@ -40,24 +42,23 @@ class Detail extends React.Component {
  //      })
 	// }
 	
-	buttonClicked(){
-		console.log("Hello from here");
-		
-	}
-	/* 
-		// event trong JSX
-		buttonClicked() {
-			console.log('Button was clicked!');
-		}
-	*/
+	handleChangeName(){
+        this.state.name = chance.first();
+        this.setState(this.state);   
+    }
 
+    handleChangeCountry() {
+    	this.state.country = chance.country({full: true});
+    	this.setState(this.state);
+    }
 
-	render() {
+    render(){
         return (<div>
-            <p>Hello, {this.state.name}.</p>
-            <p>You're from {this.state.country}.</p>
-            <button onClick={this.buttonClicked}>Click me please!</button>
-        </div>);
+        			<p>Hello, {this.state.name}.</p>
+          		 	<p>You're from {this.state.country}.</p>
+         			<button onClick={this.handleChangeName}>Click to change name!</button>
+         			<button onClick={this.handleChangeCountry}>Click to change country!</button>
+         	</div>);
     }
 }
 
