@@ -87,4 +87,32 @@ Tham khảo thêm bài viết này: [Props và State là gì?](http://teachyours
 Theo cách trên thì ta có thể sử dụng FunctionalTest ở bất kỳ vị trí nào trong React Source của chúng ta.
 
 ## Render một mảng data (Arry of Data) với map() và JSX
+
+```
+	const people = [];		
+	// khởi tạo 1 mảng danh sách thành viên
+	for (let i = 0; i < 10; i++) {
+        people.push({
+            name: chance.first(),
+            country: chance.country({ full: true })
+        });
+    }
+
+    this.state = { people };
+```
+
+Trong hàm render của Component
+
+```
+ render() {
+	    return (<div>
+	    {this.state.people.map((person, index) => (
+	        <p key={person.name}>Hello, {person.name} from {person.country}!</p>
+	    ))}
+	    </div>);
+	}
+
+```
+Lưu ý: Mỗi thành phần khi xuất ra cần thiết lập key để nhận dạng
+
 ## Các phần nâng cao và bài đọc khác về State và Props
