@@ -26,3 +26,8 @@
 
 ## SOURCE CODE bài thực hành lưu tại:
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
+
+## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO
+* [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
+* [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
+* [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)

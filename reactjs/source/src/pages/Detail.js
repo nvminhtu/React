@@ -56,6 +56,7 @@ class Detail extends React.Component {
         return (<div>
         			<p>Hello, {this.state.name}.</p>
           		 	<p>You're from {this.state.country}.</p>
+
          			<button onClick={this.handleChangeName}>Click to change name!</button>
          			<button onClick={this.handleChangeCountry}>Click to change country!</button>
          	</div>);
