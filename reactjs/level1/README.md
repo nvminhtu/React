@@ -21,6 +21,8 @@
 ### BÀI 3: JSX - làm quen và sử dụng + Import/Export
 ### BÀI 4: React Props + CHANCE Library (để thử nghiệm)
 ### BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX.
+### BÀI 6: State vs Props
+
 
 ## SOURCE CODE bài thực hành lưu tại:
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)

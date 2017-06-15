@@ -62,6 +62,19 @@
 ### [Level 3] Các kĩ thuật hỗ trợ trong React JS
 * Testing [Lint JS]
 
+### [Level 4] Hoàn chỉnh các dự án sử dụng React JS (khoảng 4 dự án)
+* Dự án 1: Đọc dữ liệu từ 1 web tin tức (API có sẵn)
+* Dự án 2: Tìm kiếm dữ liệu từ 1 API có sẵn.
+
+
+### [Level 5] React Native 
+* Làm quen và sử dụng các Component của React Native
+* Cài đặt môi trường (Xcode, Android Studio)
+* Sử dụng React Native Base
+* Các Platform API
+* Làm quen về Modules trong iOS và Android
+* Debug và các lỗi thường gặp
+
 ## BEGINNER
 ## TOPICS
 ## RESOURCES
@@ -71,3 +84,9 @@
 
 ## 2. VIDEO
 * [React Tutorial](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
+
+
+## 3. CÁC PROJECT MẪU
+### REACT NATIVE
+* [Ứng dụng đọc tin tức - nguồn từ các trang báo](https://github.com/luulam/news) - Đọc dữ liệu từ các trang báo, hiển thị layout với React Native.
+
