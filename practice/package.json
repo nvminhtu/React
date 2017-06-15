@@ -31,13 +31,17 @@
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
+    "babel-preset-stage-0": "^6.24.1",
     "history": "^4.6.2",
     "react": "^15.6.0",
     "react-dom": "^15.6.0",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1"
   },
-  "babel" : {
-    "presets":["es2015","react"]
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
   }
 }
