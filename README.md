@@ -89,8 +89,11 @@
 ## 3. CÁC PROJECT MẪU
 
 ### REACT JS
+
 * [Ứng dụng Quiz Game nhỏ - đọc dữ liệu Quesion-Answer](https://github.com/davidrayoussef/react-quiz)
 * [Ứng dụng tạo 1 Survey nhỏ trên website](https://github.com/mitchgavan/react-multi-choice-quiz)
+* [Ứng dụng React tạo Quiz các câu hỏi và trả lời](https://github.com/gchandrasa/quiz-react)
+* [Ứng dụng tạo Shopping Cart nhỏ với React](https://github.com/krzysu/reactjs-shopping-cart)
 
 ### REACT NATIVE
 * [Ứng dụng đọc tin tức - nguồn từ các trang báo](https://github.com/luulam/news) - Đọc dữ liệu từ các trang báo, hiển thị layout với React Native.
