@@ -1,4 +1,4 @@
-# BÀI 7: Đọc dữ liệu từ nhiều Feeds
+# BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds
 
 ## Tên Project: Đọc dữ liệu từ Github Source ( từ multi Feeds)
 * Nội dung như project trước
