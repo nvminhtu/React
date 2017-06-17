@@ -12,6 +12,8 @@
 * https://api.github.com/repos/nvminhtu/React/pulls
 * https://api.github.com/repos/nvminhtu/React/folks
 
+* Thời lượng: 30 phút
+
 ## SOURCE CODE (đã hoàn thiện mẫu)
 * [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project03)
 
@@ -19,6 +21,23 @@
 
 * Sử dụng các code ES6 (ES6 syntax)
 * Áp dụng: `string interpolation` và `computed property names`
+
+* [Xem thêm Template String - String interpolation](https://developers.google.com/web/updates/2015/01/ES6-Template-Strings) - Nhúng biến string trong 1 template String
+```
+var a = 10;
+var b = 10;
+console.log(`JavaScript first appeared ${a+b} years ago. Crazy haha!`)
+```
+* [Xem thêm về Computed property names](https://www.eventbrite.com/engineering/learning-es6-enhanced-object-literals/)
+```
+var foo = 'bar'
+var baz = {}
+baz[foo] = 'ponyfoo'
+console.log(baz)
+// <- { bar: 'ponyfoo' }
+```
+Computed property namese có nhiều cách viết, phía trên là đơn giản nhất, trong project thì ta chỉ xài để truyền tham số `type` vào trong 1 template string
+
 
 ## Viết như thế nào
 ```

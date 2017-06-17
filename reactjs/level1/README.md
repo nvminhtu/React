@@ -20,7 +20,7 @@
 ### [BÀI 2: Sử dụng Webpack với React JS](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI2.md)
 ### [BÀI 3: JSX - làm quen và sử dụng + Import/Export](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI3.md)
 ### [BÀI 4: React Props + CHANCE Library(để thử nghiệm)](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI4.md)
-### [BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX].(https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI5.md)
+### [BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI5.md)
 ### [BÀI 6: State vs Props](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI6.md)
 ### [BÀI 7: Khởi tạo 1 Project từ đầu - PROJECT01 - Đọc dữ liệu từ 1 Feed](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI7-PROJECT01.md)
 ### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI8-PROJECT02.md)

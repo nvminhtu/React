@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import OneFeed from './pages/OneFeed';
+import MinimizeFeeds from './pages/MinimizeFeeds';
 
 ReactDOM.render(
-	<OneFeed />,
+	<MinimizeFeeds />,
     document.getElementById('app')
 );
