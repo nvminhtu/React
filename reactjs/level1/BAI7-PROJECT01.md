@@ -8,6 +8,21 @@
 * Kĩ thuật thêm: `superagent` đọc dữ liệu AJAX
 * Thời gian thực hiện: 1 tiếng.
 
+## Cấu hình chạy Project
+* Sử dụng Webpack Dev Server
+* Cài đặt
+```
+npm install -g webpack
+npm install -g webpack-dev-server
+``` 
+
+* Cấu hình của Project 01
+
+```
+localhost:8080
+```
+
+
 ## Các bước thực hiện
 
 Xem lại các yêu cầu cần thực hiện trước khi làm project này:
