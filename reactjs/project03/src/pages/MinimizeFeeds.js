@@ -90,7 +90,7 @@ class Minimize extends React.Component {
 	}
 
 	// các hàm xử lý sự kiện đổi State
-	showCommits() {
+/*	showCommits() {
     	this.setState({ mode: 'commits' });
 	}
 
@@ -100,6 +100,11 @@ class Minimize extends React.Component {
 
 	showForks() {
 	    this.setState({ mode: 'forks' });
+	} */
+
+	// gom 3 hàm trên lại thành 1 để quản lý mode
+	selectMode(mode) {
+		this.setState({ mode });
 	}
 
 	// render - check condition before rendering
@@ -114,11 +119,17 @@ class Minimize extends React.Component {
 	        content = this.renderforks();
 	    }
 		console.log(this.state.mode);
-	    return (<div>
-	        <button onClick={this.showCommits.bind(this)}>Show Commits</button>
-	        <button onClick={this.showPulls.bind(this)}>Show Pulls</button>
-	        <button onClick={this.showForks.bind(this)}>Show forks</button>
+	    /* return (<div>
+	        <button onClick={this.selectMode.bind(this,'commits')}>Show Commits</button>
+	        <button onClick={this.selectMode.bind(this,'pulls')}>Show Pulls</button>
+	        <button onClick={this.selectMode.bind(this,'forks')}>Show forks</button>
 	        {content}
+	    </div>); */
+	    return (<div>
+	        <button onClick={this.selectMode.bind(this)} data-mode="commits">Show Commits</button>
+	        <button onClick={this.selectMode.bind(this)} data-mode="pulls">Show Pulls</button>
+	        <button onClick={this.selectMode.bind(this)} data-mode="forks">Show forks</button>
+	        content}
 	    </div>);
 	}
 }

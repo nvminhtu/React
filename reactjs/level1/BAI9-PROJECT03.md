@@ -40,6 +40,11 @@ Computed property namese có nhiều cách viết, phía trên là đơn giản 
 
 
 ## Viết như thế nào
+### Đầu tiên là gom nhóm các hàm Fetch data (ajax.get)
+
+* Xóa hết các hàm ajax.get() trong `ComponentWillMount`
+* Tạo 1 hàm fetchFeed(type)
+
 ```
 fetchFeed(type) {
     ajax.get(`https://api.github.com/repos/nvminhtu/React/${type}`)
@@ -52,4 +57,76 @@ fetchFeed(type) {
         }
     );
 }
+```
+
+* Gọi hàm này trong `ComponentWillMount`
+// fetching data
+componentWillMount() {
+    this.fetchFeed('commits');
+    this.fetchFeed('forks');
+    this.fetchFeed('pulls');
+}
+
+### Tiếp đến là gom nhóm hàm select Mode
+
+* Xóa bỏ các hàm này (đang cần gom các hàm nàys)
+```
+showCommits() {
+    	this.setState({ mode: 'commits' });
+	}
+
+	showPulls() {
+	    this.setState({ mode: 'pulls' });
+	}
+
+	showForks() {
+
+```
+
+* Thay bằng hàm này
+
+```
+selectMode(mode) {
+		this.setState({ mode });
+	}
+```
+
+* Các hàm gọi thay đổi Mode ta sửa lại như sau
+```
+<button onClick={this.selectMode.bind(this,'commits')}>Show Commits</button>
+<button onClick={this.selectMode.bind(this,'pulls')}>Show Pulls</button>
+<button onClick={this.selectMode.bind(this,'forks')}>Show forks</button>
+```	        
+
+### Cách khác để gom nhóm các hàm thay đổi Mode
+* Lý do? Do nếu sử dụng code ES6 `computed property name` (đang sử dụng cấu trúc của nó - `{}`) - thì cái này đòi hỏi phải định dạng key-value
+
+* Trong trường hợp này thì có thể viết lại như sau
+```
+return (<div>
+    <button onClick={this.selectMode.bind(this)} data-mode="commits">
+        Show Commits
+    </button>
+
+    <button onClick={this.selectMode.bind(this)} data-mode="forks">
+        Show Forks
+    </button>
+
+    <button onClick={this.selectMode.bind(this)} data-mode="pulls">
+        Show Pulls
+    </button>
+
+    {content}
+</div>);
+```
+Cách trên thì gán hẳn thông tin cần gọi vào 1 kiểu dữ liệu data ( ở đây đặt là data-mode)
+
+* Do vậy để lấy được thông tin trong `data-mode`? cần sửa như nào? Thì nếu click button ta nhận được event click => event  click truyền vào function thì ta có thể lấy thông tin trong event đó ra và thay đổi `State` của chúng ta
+
+```
+selectMopde(event) {
+	this.setState ({ mode: event.currentTarget.dataset.mode });
+}
+
+=> Xong/
 ```
