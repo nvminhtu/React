@@ -94,6 +94,7 @@
 * [Ứng dụng tạo 1 Survey nhỏ trên website](https://github.com/mitchgavan/react-multi-choice-quiz)
 * [Ứng dụng React tạo Quiz các câu hỏi và trả lời](https://github.com/gchandrasa/quiz-react)
 * [Ứng dụng tạo Shopping Cart nhỏ với React](https://github.com/krzysu/reactjs-shopping-cart)
+* [Ứng dụng tạo 1 trang Porfolio với React + Redux](https://github.com/caljrimmer/portfolio-redux-app)
 
 ### REACT NATIVE
 * [Ứng dụng đọc tin tức - nguồn từ các trang báo](https://github.com/luulam/news) - Đọc dữ liệu từ các trang báo, hiển thị layout với React Native.

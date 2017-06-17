@@ -26,7 +26,7 @@
 ### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI8-PROJECT02.md)
 ### [BÀI 9: PROJECT03 - Đọc dữ liệu từ nhiều Feeds bằng cách gom và ko lặp lại hàm](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI9-PROJECT03.md)
 ### [BÀI 10: PROJECT04 - Tạo ứng dụng Quiz Game](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PROJECT04.md)
-
+### [BÀI 11: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PropTypes.md)
 
 ## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
