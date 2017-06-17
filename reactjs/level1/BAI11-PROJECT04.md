@@ -3,7 +3,7 @@ BÀI 10: PROJECT04 - Tạo ứng dụng Quiz Game
 
 ## Yêu cầu:
 
-* Tạo 1 danh sách các câu hỏi.s
+* Tạo 1 danh sách các câu hỏi.
 * Mỗi câu hỏi có 1 câu trả lời.
 * Người chơi trả lời đúng thì cộng 1 điểm.
 * Người chơi trả lời sai thì ko cộng điểm.
@@ -15,6 +15,7 @@ BÀI 10: PROJECT04 - Tạo ứng dụng Quiz Game
 ## Kĩ thuật:
 * Tạo 1 file json trong source code chứa danh sách câu hỏi - trả lời.
 * Đọc dữ liệu từ file json đó và đổ lên lần lượt: Danh sách câu hỏi, đáp án.
+
 * Thiết kế mô hình như sau:
 ```
 QuizApp
@@ -24,14 +25,20 @@ QuizApp
     |       └── Answer
     └── Results
 ```
+
 * [Prototype](https://invis.io/7XC7F0CC8)
+* Sử dụng `PropTypes` ở bài 10
+
 
 ## SOURCE CODE (đã hoàn thiện mẫu)
 * [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project04)
 
 ## Làm sao để làm?
 
-* Sử dụng các code ES6 (ES6 syntax)
-* Áp dụng: `string interpolation` và `computed property names`
 
-## Viết như thế nào
+## Viết như thế nào (Step by Step)
+
+
+## Source tham khảo:
+
+* [React Quiz](https://github.com/davidrayoussef/react-quiz)

@@ -25,13 +25,15 @@
 ### [BÀI 7: Khởi tạo 1 Project từ đầu - PROJECT01 - Đọc dữ liệu từ 1 Feed](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI7-PROJECT01.md)
 ### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI8-PROJECT02.md)
 ### [BÀI 9: PROJECT03 - Đọc dữ liệu từ nhiều Feeds bằng cách gom và ko lặp lại hàm](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI9-PROJECT03.md)
-### [BÀI 10: PROJECT04 - Tạo ứng dụng Quiz Game](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PROJECT04.md)
-### [BÀI 11: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PropTypes.md)
+### [BÀI 10: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PropTypes.md)
+### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04.md)
+
 
 ## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
 
 ### DANH SÁCH CÁC PROJECT TRONG LEVEL 1->3
+
 * Project 1: Fetch data từ 1 API (Github)
 * Project 2: Fetch data từ 1 API - nhiều feeds.
 * Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu
@@ -44,6 +46,7 @@
 * Project 10: Tạo ứng dụng Hybrid App kết hợp với Cordova (ko sử dụng React Native) để xài lại code React JS cho Mobile App luôn
 
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
+
 * [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
 * [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
 * [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)
