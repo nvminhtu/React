@@ -12,6 +12,9 @@
 * https://api.github.com/repos/nvminhtu/React/pulls
 * https://api.github.com/repos/nvminhtu/React/folks
 
+## SOURCE CODE (đã hoàn thiện mẫu)
+* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project03)
+
 ## Làm sao để làm?
 
 * Sử dụng các code ES6 (ES6 syntax)

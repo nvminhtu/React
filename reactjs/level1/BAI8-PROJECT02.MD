@@ -11,6 +11,9 @@
 * ví dụ show repos của 1 Organization (org-repos) (https://api.github.com/users/technetup/repos)
 * ví dụ show thông tin của 1 user (user-info) (https://api.github.com/users/nvminhtu)
 
+## SOURCE CODE (đã hoàn thiện mẫu)
+* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project02)
+
 ## Các bước cần làm
 * Tạo 3 function để render cho 3 Feeds
 * Tạo 3 button để click chọn muốn show Feeds nào (sử dụng state để truyền request)
