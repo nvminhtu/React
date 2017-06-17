@@ -31,6 +31,18 @@
 ## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
 
+### DANH SÁCH CÁC PROJECT TRONG LEVEL 1->3
+* Project 1: Fetch data từ 1 API (Github)
+* Project 2: Fetch data từ 1 API - nhiều feeds.
+* Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu
+* Project 4: Game Quiz - các câu hỏi về 1 lĩnh vực (1 câu hỏi - và chọn đáp án) - cái này ứng dụng thực tế cao ( làm bài app chứa dữ liệu các bài test Anh Văn / game đố vui / hỏi đáp vui / làm bài test tuyển dụng/...)
+* Project 5: Shopping Cart đơn giản
+* Project 6: Ứng dụng quản lý Blog đơn giản (= React * Redux)
+* Project 7: Tạo 1 trang porfolio = React
+* Project 8: Tạo 1 trang survey form - thu thập thông tin khách hàng.
+* Project 9: Tạo 1 Media Library (chọn xem đơn giản với React)
+* Project 10: Tạo ứng dụng Hybrid App kết hợp với Cordova (ko sử dụng React Native) để xài lại code React JS cho Mobile App luôn
+
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
 * [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
 * [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
