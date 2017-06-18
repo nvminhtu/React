@@ -103,8 +103,13 @@ class Minimize extends React.Component {
 	} */
 
 	// gom 3 hàm trên lại thành 1 để quản lý mode
-	selectMode(mode) {
+	/* selectMode(mode) {
 		this.setState({ mode });
+	} */
+	
+	selectMopde(event) {
+		console.log(event);
+		//this.setState ({ mode: event.currentTarget.dataset.mode });
 	}
 
 	// render - check condition before rendering

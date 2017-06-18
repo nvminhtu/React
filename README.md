@@ -63,8 +63,16 @@
 * Testing [Lint JS]
 
 ### [Level 4] Hoàn chỉnh các dự án sử dụng React JS (khoảng 4 dự án)
-* Dự án 1: Đọc dữ liệu từ 1 web tin tức (API có sẵn)
-* Dự án 2: Tìm kiếm dữ liệu từ 1 API có sẵn.
+* Project 1: Fetch data từ 1 API (Github)
+* Project 2: Fetch data từ 1 API - nhiều feeds.
+* Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu
+* Project 4: Game Quiz - các câu hỏi về 1 lĩnh vực (1 câu hỏi - và chọn đáp án) - cái này ứng dụng thực tế cao ( làm bài app chứa dữ liệu các bài test Anh Văn / game đố vui / hỏi đáp vui / làm bài test tuyển dụng/...)
+* Project 5: Shopping Cart đơn giản
+* Project 6: Ứng dụng quản lý Blog đơn giản (= React * Redux)
+* Project 7: Tạo 1 trang porfolio = React
+* Project 8: Tạo 1 trang survey form - thu thập thông tin khách hàng.
+* Project 9: Tạo 1 Media Library (chọn xem đơn giản với React)
+* Project 10: Tạo ứng dụng Hybrid App kết hợp với Cordova (ko sử dụng React Native) để xài lại code React JS cho Mobile App luôn
 
 
 ### [Level 5] React Native 
