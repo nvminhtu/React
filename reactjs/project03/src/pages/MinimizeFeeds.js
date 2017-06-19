@@ -105,6 +105,7 @@ class Minimize extends React.Component {
 	// gom 3 hàm trên lại thành 1 để quản lý mode
 	selectMode(mode) {
 		this.setState({ mode });
+		//this.setState ({ mode: event.currentTarget.dataset.mode });
 	}
 
 	// render - check condition before rendering
@@ -118,19 +119,19 @@ class Minimize extends React.Component {
 	    } else {
 	        content = this.renderforks();
 	    }
-		console.log(this.state.mode);
-	    /* return (<div>
+		//console.log(this.state.mode);
+	    return (<div>
 	        <button onClick={this.selectMode.bind(this,'commits')}>Show Commits</button>
 	        <button onClick={this.selectMode.bind(this,'pulls')}>Show Pulls</button>
 	        <button onClick={this.selectMode.bind(this,'forks')}>Show forks</button>
 	        {content}
-	    </div>); */
-	    return (<div>
+	    </div>);
+	   /* return (<div>
 	        <button onClick={this.selectMode.bind(this)} data-mode="commits">Show Commits</button>
 	        <button onClick={this.selectMode.bind(this)} data-mode="pulls">Show Pulls</button>
 	        <button onClick={this.selectMode.bind(this)} data-mode="forks">Show forks</button>
 	        {content}
-	    </div>);
+	    </div>); */
 	}
 }
 

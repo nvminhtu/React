@@ -98,7 +98,7 @@ selectMode(mode) {
 <button onClick={this.selectMode.bind(this,'forks')}>Show forks</button>
 ```	        
 
-### Cách khác để gom nhóm các hàm thay đổi Mode
+### Cách khác để gom nhóm các hàm thay đổi Mode - (Cách này bỏ đi tạm thời ko sử dụng)
 * Lý do? Do nếu sử dụng code ES6 `computed property name` (đang sử dụng cấu trúc của nó - `{}`) - thì cái này đòi hỏi phải định dạng key-value
 
 * Trong trường hợp này thì có thể viết lại như sau
