@@ -148,5 +148,81 @@ var quizQuestions = [
 export default quizQuestions;
 ```
 
+* Tạo Các Component:
+* 1. Question.
+```
+  + Question là 1 item => nên dùng dạng stateless component
+  [Tham khảo thêm ở đây về stateless compoent](https://facebook.github.io/react/docs/components-and-props.html)
+```
+
+* Tạo 1 file trong folder src/components/Question.js
+```
+import React from 'react';
+
+function Question(props) {
+  return (
+    <h2 className="question">{props.content}</h2>
+  );
+}
+
+// typechecking
+
+Question.PropTypes = {
+  content: React.PropTypes.string.isRequired
+}
+
+export default Questions;
+```
+
+* Tiếp đến là sử dụng `Question` trong App
+* Tạo file: /src/App.js
+
+Cần hiểu về:
+```
+* Phân biệt `presentational` và `container` components.
+* Ở phía trên ta đã khai báo 1 Question -> cần sử dụng trong App.js -> App.js sẽ là 1 container component
+* Dùng để sử dụng trong các component khác như là 1 item nên ta code 
+
+Xem thêm các kiến thức đ1o tại đây:
+```
+* [Container Component - tìm hiểu và phân biệt](https://codepen.io/chantastic/pen/Qpeevw?editors=0010)
+* [Phân biệt Container Component và Presentation Component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+
+
+* Source code App.js như sau
+```
+import React from 'react';
+import Question from './components/Question';
+
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <h2>React Quiz</h2>
+        </div>
+        <Question content="What is your favourite food?" />
+      </div>
+    );
+  }
+  
+
+}
+
+export default App;
+```
+Test thử những code trên để hiểu cách xài <Question /> trong <App />
+
+
+
 ### Các bài viết tham khảo thêm để làm
 [Sử dụng SVG logo như 1 Component với ReactJS và Webpack](https://diessi.ca/blog/svg-images-as-react-components-with-webpack/)
+[Container Component - tìm hiểu và phân biệt](https://codepen.io/chantastic/pen/Qpeevw?editors=0010)
+[Phân biệt Container Component và Presentation Component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+[Tham khảo thêm ở đây về stateless compoent](https://facebook.github.io/react/docs/components-and-props.html)
