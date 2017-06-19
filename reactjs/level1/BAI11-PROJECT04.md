@@ -40,5 +40,6 @@ QuizApp
 
 
 ## Source tham khảo:
-
+* [React Quiz - Simple Tutorial](https://mitchgavan.com/react-quiz/)
+* [React Quiz App - Check answer](https://github.com/bonham000/react-quiz-app)
 * [React Quiz](https://github.com/davidrayoussef/react-quiz)

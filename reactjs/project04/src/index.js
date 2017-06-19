@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import MinimizeFeeds from './pages/MinimizeFeeds';
-
+const element = <h1>Hello, world</h1>;
 ReactDOM.render(
-	<MinimizeFeeds />,
+	element,
     document.getElementById('app')
 );
