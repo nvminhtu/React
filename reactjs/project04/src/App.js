@@ -4,7 +4,8 @@ import update from 'react-addons-update'; // hoặc sử dụng cái mới nhấ
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-// import './App.css';
+import './App.css';
+import logo from './svg/logo.svg';
 
 class App extends React.Component {
 
