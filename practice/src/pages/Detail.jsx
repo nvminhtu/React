@@ -35,7 +35,8 @@ export default class Detail extends React.Component {
                 });
     }
     // demo using SugerAgent with API github for get user's Repos 
-    handleClickGithubAPI(event){
+    // handleClickGithubAPI(event,name='a',aaaaa){
+    handleClickGithubAPI(event,param1){
         event.preventDefault();
         let username = this.refs.username.value;
         let _this = this;
@@ -44,6 +45,7 @@ export default class Detail extends React.Component {
                     _this.state.repos = success.body;
                     _this.setState(_this.repos);
                 });
+                console.log(param1);
     }
     render(){
         
@@ -60,7 +62,7 @@ export default class Detail extends React.Component {
             <hr/>
             <form>
                 <input type="text" ref="username" />
-                <button onClick={this.handleClickGithubAPI}>Click Me Github API</button>
+                <button onClick={ (e) => this.handleClickGithubAPI(e,'fokr') } >Click Me Github API</button>
             </form>
                 {
                     this.state.repos.map((item,index)=>(
