@@ -219,7 +219,70 @@ export default App;
 ```
 Test thử những code trên để hiểu cách xài <Question /> trong <App />
 
+* 2. Question Count
+Tạo 1 file đặt ở /components/QuestionCount.js
+```
+/* presentation component */
 
+import React from 'react';
+
+function QuestionCount(props) {
+  return (
+    <div className="QuestionCount">
+      Question <span>{ props.counter}</span> of <span>{props.total}</span>
+    </div>
+  );
+}
+
+QuestionCount.PropTypes = {
+  counter: React.PropTypes.number.isRequired,
+  total: React.PropTypes.number.isRequired
+}
+
+export default QuestionCount;
+```
+
+* 3. Answer Question
+Tạo 1 file đặt ở /compoents/AnswerOptions.js
+
+```
+import React from 'react';
+
+  function AnswerOption(props) {
+    return (
+      <li className="answerOption">
+        <input
+          type="radio"
+          className="radioCustomButton"
+          name="radioGroup"
+          checked={props.answerType === props.answer}
+          id={props.answerType}
+          value={props.answerType}
+          disabled={props.answer}
+          onChange={props.onAnswerSelected}
+        />
+        <label className="radioCustomLabel" htmlFor={props.answerType}>
+          {props.answerContent}
+        </label>
+      </li>
+    );
+  }
+
+  AnswerOption.propTypes = {
+    answerType: React.PropTypes.string.isRequired,
+    answerContent: React.PropTypes.string.isRequired,
+    answer: React.PropTypes.string.isRequired,
+    onAnswerSelected: React.PropTypes.func.isRequired
+  };
+
+  export default AnswerOption;
+```
+
+* Gom 3 Component vừa tạo vào trong 1 Component => đặt tên là <Quiz /> (khai báo theo kiểu presentation Component luôn)
+
+```
+
+```
 
 ### Các bài viết tham khảo thêm để làm
 [Sử dụng SVG logo như 1 Component với ReactJS và Webpack](https://diessi.ca/blog/svg-images-as-react-components-with-webpack/)
