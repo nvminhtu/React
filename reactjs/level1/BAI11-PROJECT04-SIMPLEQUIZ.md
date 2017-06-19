@@ -281,8 +281,42 @@ import React from 'react';
 * Gom 3 Component vừa tạo vào trong 1 Component => đặt tên là <Quiz /> (khai báo theo kiểu presentation Component luôn)
 
 ```
+import React from './react';
 
+import Question from './components/Question.js';
+import AnswerOptions from './components/AnswerOptions.js';
+import QuestionCount from './components/QuestionCount.js';
+
+function Quiz(props) {
+  return (
+    <div className="Quiz">
+      <QuestionCount
+        counter = props.questionId
+        total = props.questionTotal
+      />
+      <Question content= props.question />
+      <ul className="answerOptions">
+        {props.answerQuestion.map(renderAnswerOptions)}
+      </ul>
+    </div>
+  );
+}
+
+Quiz.propTypes = {
+    answer: React.PropTypes.string.isRequired,
+    answerOptions: React.PropTypes.array.isRequired,
+    counter: React.PropTypes.number.isRequired,
+    question: React.PropTypes.string.isRequired,
+    questionId: React.PropTypes.number.isRequired,
+    questionTotal: React.PropTypes.number.isRequired,
+    onAnswerSelected: React.PropTypes.func.isRequired
+  };
+
+export default Quiz;
 ```
+
+
+
 
 ### Các bài viết tham khảo thêm để làm
 [Sử dụng SVG logo như 1 Component với ReactJS và Webpack](https://diessi.ca/blog/svg-images-as-react-components-with-webpack/)
