@@ -1,16 +1,17 @@
 import React from 'react';
-import Question from './components/Question';
+
+import update from 'react-addons-update'; // hoặc sử dụng cái mới nhất: import update from 'immutability-helper';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import logo from './svg/logo.svg';
-import './App.css';
+// import './App.css';
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
 
+    // khởi tạo các state cần sử dụng đến
     this.state = {
       counter: 0,
       questionId: 1,
@@ -25,17 +26,22 @@ class App extends React.Component {
       result: ''
     };
 
+    // đặt hàm khai báo bind() ở đây để performance của app tốt nhất
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
 
   componentWillMount() {
+
+    // đổ data từ 1 mảng khai báo trong API vào -> thay đổi thứ tự câu trả lời 1 cách ngẫu nhiên
     const shuffledAnswerOptions = quizQuestions.map((question) => this.shuffleArray(question.answers));
+
     this.setState({
-      question: quizQuestions[0].question,
+      question: quizQuestions[0].question, // Lấy question đầu tiên trong mảng quizQuestion đã khai báo ở /api/quizQuestion
       answerOptions: shuffledAnswerOptions[0]
     });
   }
 
+  // hàm này giúp thay đổi ngẫu nhiên thứ tự các phần tử
   shuffleArray(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
@@ -60,14 +66,16 @@ class App extends React.Component {
 
     if (this.state.questionId < quizQuestions.length) {
         setTimeout(() => this.setNextQuestion(), 300);
+        //this.setNextQuestion();
     } else {
+        //this.getResults();
         setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
 
   setUserAnswer(answer) {
     const updatedAnswersCount = update(this.state.answersCount, {
-      [answer]: {$apply: (currentValue) => currentValue + 1}
+      [answer]: {$apply: (currentValue) => currentValue + 1} // cách viết này là của react-update-addon (nay có thể thay = immutability-helper )
     });
 
     this.setState({
@@ -140,7 +148,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h2>React Quiz</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}

@@ -174,22 +174,21 @@ Question.PropTypes = {
 export default Questions;
 ```
 
-* Tiếp đến là sử dụng `Question` trong App
-* Tạo file: /src/App.js
+* Tiếp đến là sử dụng `Question` trong App - tạo file: /src/App.js
 
 Cần hiểu về:
-```
+
 * Phân biệt `presentational` và `container` components.
 * Ở phía trên ta đã khai báo 1 Question -> cần sử dụng trong App.js -> App.js sẽ là 1 container component
 * Dùng để sử dụng trong các component khác như là 1 item nên ta code 
 
-Xem thêm các kiến thức đ1o tại đây:
-```
+#### Xem thêm các kiến thức tại đây:
 * [Container Component - tìm hiểu và phân biệt](https://codepen.io/chantastic/pen/Qpeevw?editors=0010)
 * [Phân biệt Container Component và Presentation Component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 
 
-* Source code App.js như sau
+* Source code App.js như sau:
+
 ```
 import React from 'react';
 import Question from './components/Question';
@@ -221,6 +220,7 @@ Test thử những code trên để hiểu cách xài <Question /> trong <App />
 
 * 2. Question Count
 Tạo 1 file đặt ở /components/QuestionCount.js
+
 ```
 /* presentation component */
 
@@ -314,12 +314,13 @@ Quiz.propTypes = {
 
 export default Quiz;
 ```
-
-
-
+------- Phần hướng dãn sẽ cập nhật thêm sau, anh em có thể xem code để hiểu và hỏi.
 
 ### Các bài viết tham khảo thêm để làm
 [Sử dụng SVG logo như 1 Component với ReactJS và Webpack](https://diessi.ca/blog/svg-images-as-react-components-with-webpack/)
+
 [Container Component - tìm hiểu và phân biệt](https://codepen.io/chantastic/pen/Qpeevw?editors=0010)
+
 [Phân biệt Container Component và Presentation Component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+
 [Tham khảo thêm ở đây về stateless compoent](https://facebook.github.io/react/docs/components-and-props.html)
