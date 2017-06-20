@@ -31,7 +31,7 @@ QuizApp
 
 
 ## SOURCE CODE (đã hoàn thiện mẫu)
-* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project04)
+* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project04_2)
 
 ## Làm sao để làm?
 
