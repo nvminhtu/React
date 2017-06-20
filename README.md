@@ -55,15 +55,17 @@
 * Fetch Data
 
 ### [Level 2] Các kĩ thuật cần phải biết để xây dựng project React JS
+* Flux
 * Redux
 * GraphQL
 * Relay
 
 ### [Level 3] Các kĩ thuật hỗ trợ trong React JS
-* Testing [Lint JS]
+* Lint JS
+* Testing JEST 
 
 ### [Level 4] Hoàn chỉnh các dự án sử dụng React JS (khoảng 4 dự án)
-* Project 1: Fetch data từ 1 API (Github)
+* Project 1: Fetch data từ 1 API (Github) 
 * Project 2: Fetch data từ 1 API - nhiều feeds.
 * Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu
 * Project 4: Game Quiz - các câu hỏi về 1 lĩnh vực (1 câu hỏi - và chọn đáp án) - cái này ứng dụng thực tế cao ( làm bài app chứa dữ liệu các bài test Anh Văn / game đố vui / hỏi đáp vui / làm bài test tuyển dụng/...)
