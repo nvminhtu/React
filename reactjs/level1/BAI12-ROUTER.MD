@@ -15,6 +15,7 @@ Nếu bạn sử dụng 1 số trang web hiện nay, bạn sẽ thấy khi click
 * [Phân biệt React Router và các package của nó](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 * [Tutorial riêng về tạo và sử dụng React Router](https://github.com/reactjs/react-router-tutorial) - bao gồm (setup, rendering a route, nested, param, server rendering,...) - lưu ý là react router version 2.x (còn 4.x là ko chơi với code này được nữa nhé).
 * [Tutorial hướng dẫn tạo Router với React Router v4.x](https://github.com/IrfanBaqui/react-router-v4-tutorial)
+* [Blog hướng dẫn làm React Router với React Router v4.x](https://www.sigient.com/blog/movie-listings-application-with-react-router-v-4) - thấy bài này hoàn chỉnh có hướng dẫn khá OK.
 
 ## Follow bài này để làm step by step
 * [Tạo 1 project từ đầu với React và React Router](https://medium.com/@dabit3/beginner-s-guide-to-react-router-53094349669) - bài này hướng dẫn thực hành từ việc setup webpack, đến sử dụng React Router. 
