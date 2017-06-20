@@ -5,7 +5,9 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './App.css';
-import Logo from './svg/logo.svg';
+import logo from './svg/logo.svg';
+//import logoTwo from './svg/logo.svg';
+//var logoTwo = require('svg-inline-loader?classPrefix!./svg/logo.svg');
 
 class App extends React.Component {
 
@@ -135,12 +137,15 @@ class App extends React.Component {
     );
   }
   
+  /* <Logo className='App-logo' alt='logo' /> */
+
   render() {
+    console.log(logo);
     return (
       <div className="App">
         <div className="App-header">
           <h2>React Quiz</h2>
-          <Logo className='App-logo' alt='logo' />
+          <img src={logo} className="App-logo" alt="logo" />
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>

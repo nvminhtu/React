@@ -21,23 +21,11 @@ module.exports = {
                 test: /\.css$/, 
                 loader: 'style-loader!css-loader'
             },
-            {
-                test: /\.svg$/,
-                loaders: [
-                    {
-                      loader: 'babel-loader',
-                      query: {
-                        presets: ['es2015']
-                      }
-                    },
-                    {
-                      loader: 'react-svg-loader',
-                      query: {
-                        jsx: true
-                      }
-                    }
-                  ]
-                } 
+            {   // loader các dạng hình ảnh - hiện tại để tạm svg folder thôi.
+                test: /\.(jpe?g|png|gif|svg)$/i, 
+                loader: "file-loader?name=src/svg/[name].[ext]"
+            }
+           
         ]
     },
     resolve: {

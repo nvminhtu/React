@@ -8,7 +8,7 @@ import React from 'react';
 
 function QuestionCount(props) {
 	return (
-		<div className="QuestionCount">
+		<div className="questionCount">
 			Question <span>{ props.counter}</span> of <span>{props.total}</span>
 		</div>
 	);
