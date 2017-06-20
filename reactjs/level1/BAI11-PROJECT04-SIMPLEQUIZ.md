@@ -324,3 +324,5 @@ export default Quiz;
 [Phân biệt Container Component và Presentation Component](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
 
 [Tham khảo thêm ở đây về stateless compoent](https://facebook.github.io/react/docs/components-and-props.html)
+
+[Tìm hiểu về Filter trong Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=example)

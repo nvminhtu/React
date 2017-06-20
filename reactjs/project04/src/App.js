@@ -5,7 +5,7 @@ import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
 import './App.css';
-import logo from './svg/logo.svg';
+import Logo from './svg/logo.svg';
 
 class App extends React.Component {
 
@@ -98,6 +98,7 @@ class App extends React.Component {
     });
   }
 
+  // xử lý đọc kết quả - nếu kết quả nào dc trả lời nhiều nhất => hiển thị kết quả đó ra.
   getResults() {
     const answersCount = this.state.answersCount;
     const answersCountKeys = Object.keys(answersCount);
@@ -139,6 +140,7 @@ class App extends React.Component {
       <div className="App">
         <div className="App-header">
           <h2>React Quiz</h2>
+          <Logo className='App-logo' alt='logo' />
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
