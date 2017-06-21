@@ -1,5 +1,10 @@
 # REACT JS LEARNING & ROADMAP
 
+## HOẠT ĐỘNG:
+
+* Slack: [Technetup on Slack](http://technetup.slack.com/) - trao đổi về React JS, Javascript
+* Offline: 2 tuần 1 lần trao đổi những cái thắc mắc và làm project.
+
 ## 1.ROADMAP
 
 ### 1.1 LEVEL
