@@ -83,6 +83,7 @@ const Address = () => <h1>We are located at 555 Jackson St.</h1>
 export default App
 
 ```
+... Tạm ngưng ko update cho mục này - Xem trong bài hướng dẫn chi tiết riêng.
 
 
 
