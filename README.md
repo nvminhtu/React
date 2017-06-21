@@ -23,7 +23,13 @@
 
 ## 2. CHƯƠNG TRÌNH
 
-### 2.1 PREPACK REACJS (Những kiến thức cần nắm trước khi làm REACT JS)
+### 2.0 REQUIRE BEFORE REACT JS (Những kiến thức bắt buộc phải biết)
+
+* HTML cơ bản
+* CSS cơ bản (CSS2 hoặc 3)
+* Javascript cơ bản (ECMAScript 5)
+
+### 2.1 PREPACK REACT JS (Những kiến thức cần nắm trước khi làm REACT JS)
 
 * ECMAScript 6 (ES6)
 * Babel
