@@ -87,12 +87,52 @@ export default App;
 ]
 ```
 
+* Import vào file `App.js` của chúng ta.
+
+```
+import React from 'react';
+import movies from '../movies.json';
+```
+
 ### 3. Tùy chỉnh giao diện trang HOME
 
 #### Yêu cầu:
 
 * Trang chủ show 4 phim (TOP 4 phim)
-* Mỗi 1 phim ta đặt tên là: FeaturedMovie => Tạo Component `FeaturedMovie`
+* Mỗi một phim ta đặt tên là: FeaturedMovie => cần tạo Component `FeaturedMovie`
+
+### App.js
+
+```
+import React from 'react';
+import movies from '../movies.json';
+import FeaturedMovie from './FeaturedMovie';
+
+const Home = () => {
+  const topFour = movies.slice(0, 4);
+
+  return (
+    <div>
+      <h2 className="featured-movies__header">
+        Featured Movies
+      </h2>
+
+      <hr />
+
+      <div className="featured-movies">
+        {topFour.map((movie, i) => (
+          <FeaturedMovie
+            movie={movie}
+            key={i}
+          />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Home;
+```
 
 ## Source code 
 * [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project05-movie-listing)
