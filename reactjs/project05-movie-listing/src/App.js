@@ -1,15 +1,22 @@
-import ReactDOM from 'react-dom'
-import React, { Component } from 'react'
-import { BrowserRouter, Match, Link } from 'react-router'
-import { Home } from './Components'
+import React, { Component } from 'react';
+import logo from './svg/logo.svg';
+import './App.css';
 
-//Using a BrowserRouter and Match 
-//Having a Link to access the path
-ReactDOM.render(
-  <BrowserRouter>
-    <div>
-      <Link to="/">Home</Link>
-      <Match exactly pattern="/" component={Home} />
-    </div>
-   </BrowserRouter>
-  , document.getElementById('main'))
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <div className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h2>Welcome to React</h2>
+        </div>
+
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+      </div>
+    );
+  }
+}
+
+export default App;

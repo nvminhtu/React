@@ -1,58 +1,3 @@
-# PROJECT 05 - REACT ROUTER - MOVIE LISTING
-
-## Nội dung:
-* Tạo 1 SPA (Single Page Application)
-* 1 trang có nhiều Router khác nhau
-
-## Step by Step:
-
-### 1. Chỉnh sửa code như sau và test chạy thử trước
-
-* index.js
-```
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-import App from './App';
-
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
-```
-
-* App.js
-```
-import React, { Component } from 'react';
-import logo from './svg/logo.svg';
-import './App.css';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
-
-export default App;
-```
-
-### 2. Thêm dữ liệu DEMO
-
-* Tạo file movie.json, các Data item khác các bác tự thêm để demo nhé
-
-```
 [
     {
         "id": 1,
@@ -85,14 +30,3 @@ export default App;
         ]
     }
 ]
-```
-
-### 3. Tùy chỉnh giao diện trang HOME
-
-#### Yêu cầu:
-
-* Trang chủ show 4 phim (TOP 4 phim)
-* Mỗi 1 phim ta đặt tên là: FeaturedMovie => Tạo Component `FeaturedMovie`
-
-## Source code 
-* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project05-movie-listing)
