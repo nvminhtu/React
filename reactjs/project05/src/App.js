@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <div className="App-header">
-            <h2>Flix</h2>
+            <h2>Phim hay</h2>
             <Link to="/">Home</Link>
           </div>
 

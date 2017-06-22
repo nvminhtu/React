@@ -4,19 +4,19 @@ import FeaturedMovie from './FeaturedMovie';
 
 const Home = () => {
   
- // const topFour = movies.slice(0, 4);
-  //console.log(topFour);
+  // lọc ra 4 phim trong list movies
+  const topFour = movies.slice(0, 4);
 
   return (
     <div>
       <h2 className="featured-movies">
-        Featured Movies
+        Phim nổi bật
       </h2>
 
       <hr />
 
       <div className="featured-movies">
-        {movies.map((movie, i) => (
+        {topFour.map((movie, i) => (
           <FeaturedMovie
             movie={movie}
             key={i}

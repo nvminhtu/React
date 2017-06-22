@@ -11,8 +11,14 @@
 * React Router
 * Fetch Data
 
-## Các bài viết tham khảo
+## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
+
 * [React Router - phân biệt cách dùng](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) - vì có tới 3 package chúng ta cần phân biệt (react-router, react-router-dom, reat-router-native)
+* [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
+* [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
+* [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)
+* [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
+
 
 ## Thực hành (step by step):
 
@@ -30,6 +36,7 @@
 
 
 ## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
+
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
 
 ### DANH SÁCH CÁC PROJECT TRONG LEVEL 1->3
@@ -45,14 +52,10 @@
 * Project 9: Tạo 1 Media Library (chọn xem đơn giản với React)
 * Project 10: Tạo ứng dụng Hybrid App kết hợp với Cordova (ko sử dụng React Native) để xài lại code React JS cho Mobile App luôn
 
-## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
-
-* [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
-* [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
-* [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)
-* [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
 
 
 ## MỘT SỐ VẤN ĐỀ CẬP NHẬT:
 
 * [Tại sao nên sử dụng create react app](https://medium.com/@tuchk4/why-i-love-create-react-app-e63b1be689a3)
+
+
