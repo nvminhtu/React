@@ -1,29 +1,26 @@
-import React from 'react';
-import movies from '../movies.json';
-import FeaturedMovie from './FeaturedMovie';
+import React, { PropTypes } from 'react';
 
-  const Home = () => {
-    // lấy 4 phim đầu tiên trong file json đã khai báo
-    const topFour = movies.slice(0, 4);
+const FeaturedMovie = ({ movie }) => (
+  <div className="featured-movie">
+    <div className="featured-movie__image">
+      <img alt={movie.name} src={movie.image} />
+    </div>
 
-    return (
-      <div>
-        <h2 className="featured-movies__header">
-          Phim nổi bật
-        </h2>
+    <div className="featured-movie__info">
+      <p><b>{movie.name}</b></p>
+      <p>{movie.director}</p>
+      <p>{movie.released}</p>
+    </div>
+  </div>
+);
 
-        <hr />
-        
-        <div className="featured-movies">
-          {topFour.map((movie, i) => (
-            <FeaturedMovie
-              movie={movie}
-              key={i}
-            />
-          ))}
-        </div>
-      </div>
-    );
-  };
+FeaturedMovie.propTypes = {
+  movie: PropTypes.shape({
+    director: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    released: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
-export default Home;
+export default FeaturedMovie;
