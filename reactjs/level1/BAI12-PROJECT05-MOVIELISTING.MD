@@ -235,8 +235,38 @@ Thêm liên kết tới theo id truyền vào ở đây ta xài Template String 
 </Link>
 ``` 
 
-* Việc tiếp theo là tạo 1 Component đặt tên là `Movie.js`
+* Việc tiếp theo là tạo 1 Component đặt tên là `Movie.js`, Component này đơn giản là liệt kê tất cả Movie ra
 
+```
+import React from 'react';
+import Link from 'react-router/Link';
+import movies from '../movies.json';
+
+const Movies = () => (
+  <div>
+    <h2 className="movies-header">
+      Movies
+    </h2>
+
+    <hr />
+
+    <div className="movie-listings">
+      {movies.map((movie, i) => (
+        <div key={i}>
+          <div className="movie-image">
+            <Link to={`/movies/${movie.id}`}>
+              <img alt={movie.name} src={movie.image} />
+            </Link>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+);
+
+export default Movies;
+
+```
 [Coi thêm về .map() javascript](https://www.discovermeteor.com/blog/understanding-javascript-map/)
 
 ## Source code 

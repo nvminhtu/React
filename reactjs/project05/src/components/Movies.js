@@ -5,15 +5,15 @@ import movies from '../movies.json';
 const Movies = () => (
   <div>
     <h2 className="movies-header">
-      Movies
+        Danh sách Phim
     </h2>
 
     <hr />
 
     <div className="movie-listings">
-      {movies.map((movie, i) => (
+      {movies.map((movie,i)=>(
         <div key={i}>
-          <div className="movie-image">
+          <div className="moive-image">
             <Link to={`/movies/${movie.id}`}>
               <img alt={movie.name} src={movie.image} />
             </Link>
