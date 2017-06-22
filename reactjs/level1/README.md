@@ -51,3 +51,8 @@
 * [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
 * [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)
 * [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
+
+
+## MỘT SỐ VẤN ĐỀ CẬP NHẬT:
+
+* [Tại sao nên sử dụng create react app](https://medium.com/@tuchk4/why-i-love-create-react-app-e63b1be689a3)

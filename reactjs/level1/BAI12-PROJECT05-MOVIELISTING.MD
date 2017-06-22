@@ -12,7 +12,15 @@
 npm install -g create-react-app
 ```
 
+* Test thử xem Ok chưa
+
+```
+npm run start
+``` 
+
 ### 1. Chỉnh sửa code như sau và test chạy thử trước
+
+Mặc định Boilerplate của nó, chúng ta cần sửa gom lại
 
 * index.js
 ```
@@ -40,12 +48,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Phim mới</h2>
         </div>
-
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
       </div>
     );
   }
@@ -53,8 +57,26 @@ class App extends Component {
 
 export default App;
 ```
+### 2. Cài đặt React Router
 
-### 2. Thêm dữ liệu DEMO
+// ví dụ như hiện tại là cài bản version 4.0.0-alpha.4
+
+```
+npm install --save react-router@4.0.0-alpha.4 
+```
+
+* Sau đó, kiểm tra lại xem các Devdependencies đã có chưa: vào file `package.json`
+
+```
+"dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.0.0-alpha.4"
+  },
+```
+Nếu đã thấy các package này thì OK
+
+### 3. Thêm dữ liệu DEMO
 
 * Tạo file movie.json, các Data item khác các bác tự thêm để demo nhé
 
@@ -100,7 +122,7 @@ import React from 'react';
 import movies from '../movies.json';
 ```
 
-### 3. Tùy chỉnh giao diện trang HOME
+### 4. Tùy chỉnh giao diện trang HOME
 
 #### Yêu cầu:
 
@@ -140,5 +162,7 @@ const Home = () => {
 export default Home;
 ```
 
+[Coi thêm về .map() javascript](https://www.discovermeteor.com/blog/understanding-javascript-map/)
+
 ## Source code 
-* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project05-movie-listing)
+* [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project05)
