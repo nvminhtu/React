@@ -23,6 +23,7 @@ Nếu bạn sử dụng 1 số trang web hiện nay, bạn sẽ thấy khi click
 
 
 ## Step by step:
+> Tạm ngưng ko update cho mục này - Xem trong bài hướng dẫn chi tiết riêng của Project 05
 
 * Bài này ta tạo riêng 1 folder source giống các package trước, ta có thể clone setup như các project 1->4 đã làm. Đạt tên folder là `react-router` trong `level1`
 
@@ -83,7 +84,7 @@ const Address = () => <h1>We are located at 555 Jackson St.</h1>
 export default App
 
 ```
-... Tạm ngưng ko update cho mục này - Xem trong bài hướng dẫn chi tiết riêng.
+... Tạm ngưng ko update cho mục này - Xem trong bài hướng dẫn chi tiết riêng của Project 05
 
 
 

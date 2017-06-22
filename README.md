@@ -73,7 +73,8 @@
 
 ### [Level 3] Các kĩ thuật hỗ trợ trong React JS
 * Lint JS
-* Testing JEST 
+* JEST (Tool Test)(https://facebook.github.io/jest/docs/tutorial-react.html) 
+
 
 ### [Level 4] Hoàn chỉnh các dự án sử dụng React JS (khoảng 4 dự án)
 * Project 1: Fetch data từ 1 API (Github) 
@@ -97,8 +98,13 @@
 * Debug và các lỗi thường gặp
 
 ## BEGINNER
+
 ## TOPICS
+
 ## RESOURCES
+
+* [Awesome React](https://github.com/nvminhtu/awesome-react)
+
 ## Tài liệu chính chủ
 * [React Documentation](https://facebook.github.io/react/docs/hello-world.html)
 

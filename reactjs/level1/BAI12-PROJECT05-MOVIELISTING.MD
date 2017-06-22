@@ -320,6 +320,7 @@ export default PageNotFound;
 * [Create React App](https://github.com/facebookincubator/create-react-app) - Package tạo project React đơn giản - không cần config nhiều 
 * [React Router](https://github.com/ReactTraining/react-router) - Để Routing app cần chú này(BrowserRouter, <Link>, <Match>, <Miss>)
 [Coi thêm về .map() javascript](https://www.discovermeteor.com/blog/understanding-javascript-map/)
+* [Các hướng dẫn của React Router khác](https://reacttraining.com/react-router/web/example/url-params) 
 
 * Lưu ý: Đang làm việc với React Router v4, 1 số guide của các bài khác có thể ko chạy do version mới ko còn support....v.v.
 
