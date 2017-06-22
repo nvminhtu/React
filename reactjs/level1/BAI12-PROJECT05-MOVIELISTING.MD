@@ -211,7 +211,7 @@ Trong React Router chia ra, để nguyên nội dung nguyên bản tiếng Anh c
 * <Link>: Để điểu hướng Browser của chúng ta tới `/`
 * <Match>: chỉ định Component sẽ render tới khi chỉ định pattern nào: ví dụ ở trên là `/`
 
-#### 5. Thêm trang phim chi tiết.
+### 5. Thêm trang phim chi tiết. (Movies và Movie/${movie.id})
 
 * Giờ đẹp rồi, nếu muốn xem chi tiết 1 phim => ví dụ click vào coi phim thì làm thế nào? => cần tạo 1 trang phim chi tiết.
 
@@ -267,6 +267,53 @@ const Movies = () => (
 export default Movies;
 
 ```
+
+### 6. Thêm các tính năng khác, ví dụ như không tìm thấy trang/địa chỉ của trang mà User cần tìm kiếm => Page not found
+
+* React Router có hỗ trợ ko? => Có, React Router hỗ trợ <Miss>
+
+* Làm sao khai báo và sử dụng? => OK, tương tự như các <Router>, <Match>, <Link>, chúng ta cũng cần chỉ định Component của <Miss>
+
+* Trong App.js chúng ta chỉnh sửa lại code như sau:
+
+```
+...
+import Home from './components/Home';
+import Movie from './components/Movie';
+import Movies from './components/Movies';
+import PageNotFound from './components/PageNotFound'; // import of new component
+
+import Router from 'react-router/BrowserRouter';
+import Match from 'react-router/Match';
+import Link from 'react-router/Link';
+import Miss from 'react-router/Miss'; // import react-router's Miss component
+...
+
+<div className="container">
+  <Match exactly pattern="/" component={Home} />
+  <Match exactly pattern="/movies" component={Movies} />
+  <Match pattern="/movies/:movieId" component={Movie} />
+
+  <Miss component={PageNotFound} /> // add Miss component with our PageNotFound component
+</div>
+
+....
+```
+
+* Dĩ nhiên là cần tạo 1 template cho `Page Not Found` - tạo 1 Component đơn giản với vài dòng sau
+
+```
+import React from 'react';
+
+const PageNotFound = () => (
+  <div className="page-not-found">
+    404 - Xin lỗi, trang bạn kiếm không tồn tại!
+  </div>
+);
+
+export default PageNotFound;
+```
+
 [Coi thêm về .map() javascript](https://www.discovermeteor.com/blog/understanding-javascript-map/)
 
 ## Source code 
