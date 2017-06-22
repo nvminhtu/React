@@ -162,6 +162,81 @@ const Home = () => {
 export default Home;
 ```
 
+* Sau khi tạo xong Component: Home.
+* Chúng ta cần show Component Home này ở App.js
+
+Sửa lại và import Router, Match, Link vào
+```
+import React, { Component } from 'react';
+import './App.css';
+
+import Home from './components/Home';
+
+import Router from 'react-router/BrowserRouter';
+import Match from 'react-router/Match';
+import Link from 'react-router/Link';
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <div className="App-header">
+            <h2>Phim hay</h2>
+            <Link to="/">Home</Link>
+          </div>
+
+          <div className="container">
+            <Match exactly pattern="/" component={Home} />
+            <Match pattern="/movies/movie:Id" component={Movie} />
+          </div>
+        </div>
+      </Router>
+    );
+  }
+}
+
+export default App;
+```
+
+Trong React Router chia ra, để nguyên nội dung nguyên bản tiếng Anh các bạn tự coi.
+
+```
+<BrowserRouter>: Keeps UI in sync with the browser history.
+<Link>: Provides declarative navigation around the application.
+<Match>: Renders UI when the pattern matches the location.
+```
+
+* <BrowserRouter> : Ok, để tương tác với browser ta cần khai báo cái này để UI có thể tương tác với Browser.
+* <Link>: Để điểu hướng Browser của chúng ta tới `/`
+* <Match>: chỉ định Component sẽ render tới khi chỉ định pattern nào: ví dụ ở trên là `/`
+
+#### 5. Thêm trang phim chi tiết.
+
+* Giờ đẹp rồi, nếu muốn xem chi tiết 1 phim => ví dụ click vào coi phim thì làm thế nào? => cần tạo 1 trang phim chi tiết.
+
+* Đầu tiên ta cứ khai báo pattern cho nó đã
+```
+<Match pattern="/movies/:movieId" component={Movie} />
+```
+
+* Khoan hãy tạo Component `Movie.js`, ta tạo link cho nó để ở trang Home có thể link tới trang chi tiết => Ok, vậy chỉnh trong file FeaturedMovie.js
+
+Import Link từ React Router
+```
+import Link from 'react-router/Link';
+```
+
+Thêm liên kết tới theo id truyền vào ở đây ta xài Template String (ES6) để gắn biến `movie.id` vào.
+
+```
+<Link to={`/movies/${movie.id}`}>
+  <img alt={movie.name} src={movie.image} />
+</Link>
+``` 
+
+* Việc tiếp theo là tạo 1 Component đặt tên là `Movie.js`
+
 [Coi thêm về .map() javascript](https://www.discovermeteor.com/blog/understanding-javascript-map/)
 
 ## Source code 

@@ -18,7 +18,7 @@
 * [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
 * [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)
 * [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
-
+* [Comment code trong JSX](http://wesbos.com/react-jsx-comments/) - Cách comment trong JSX nhanh sử dụng Sublime Text Package
 
 ## Thực hành (step by step):
 
