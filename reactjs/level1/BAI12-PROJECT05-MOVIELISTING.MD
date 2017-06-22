@@ -314,7 +314,14 @@ const PageNotFound = () => (
 export default PageNotFound;
 ```
 
+## Vậy là xong rùi đó, xem thêm những kiến thức khác - tổng hợp để làm bài này?
+
+* [Mozilla Developer](https://developer.mozilla.org/en-US/) - chuyên mục Javascript, kiên thức javascript cơ bản
+* [Create React App](https://github.com/facebookincubator/create-react-app) - Package tạo project React đơn giản - không cần config nhiều 
+* [React Router](https://github.com/ReactTraining/react-router) - Để Routing app cần chú này(BrowserRouter, <Link>, <Match>, <Miss>)
 [Coi thêm về .map() javascript](https://www.discovermeteor.com/blog/understanding-javascript-map/)
+
+* Lưu ý: Đang làm việc với React Router v4, 1 số guide của các bài khác có thể ko chạy do version mới ko còn support....v.v.
 
 ## Source code 
 * [Link source code hoàn thiện](https://github.com/nvminhtu/React/tree/master/reactjs/project05)
