@@ -6,6 +6,12 @@
 
 ## Step by Step:
 
+### 0. Cài package `create-react-app` để tạo project trong bài này.
+
+```
+npm install -g create-react-app
+```
+
 ### 1. Chỉnh sửa code như sau và test chạy thử trước
 
 * index.js
