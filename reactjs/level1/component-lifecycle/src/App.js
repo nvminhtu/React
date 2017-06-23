@@ -4,6 +4,7 @@ import './App.css';
 
 import BasicCounter from './components/BasicCounter.js';
 import AdvancedCounter from './components/AdvancedCounter.js';
+import FetchCounter from './components/FetchCounter.js';
 
 class App extends Component {
   render() {

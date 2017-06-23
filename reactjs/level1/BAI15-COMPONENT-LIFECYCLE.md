@@ -20,11 +20,24 @@ Như mình giới thiệu các vòng đời ở trên, thì mỗi vòng đời t
 
 Phần trên nguồn từ Internet nhé!!!
 
+### Keywords tìm kiếm liên quan `Component Life Cycle`
 
-### 1. Xem thông tin về các vòng đời (hàm sử dụng trong LifeCycle)?
+* Mounting (ComponentWillMount và ComponentDidMount)
+
+`ComponnentWillMount` - thường sử dụng this.setState() ở hàm này để tránh gọi lại (re-trigger) - do hàm này là hàm đầu tiên được gọi khi khởi tạo.
+
+`ComponentDidMount` - được ngay sau khi React render Component
+
+* Updating
+* Unmounting
+
+## Xem thông tin về các vòng đời (hàm sử dụng trong LifeCycle)?
 
 [React Component Document](https://facebook.github.io/react/docs/react-component.html) - Tài liệu chính chủ Facebook nhé.
 
 ![React Component LifeCycle](https://github.com/nvminhtu/React/blob/master/reactjs/level1/bai14/react-component-lifecycle.jpeg "React Component LifeCycle")
 
 ## Nguồn tham khảo:
+
+* [React Component Life Cycle - Medium](https://medium.com/react-ecosystem/react-components-lifecycle-ce09239010df)
+
