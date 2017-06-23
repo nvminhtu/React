@@ -24,10 +24,10 @@ const BasicCounter = React.createClass({
             	<h1>{this.props.title}</h1>
             	<div>{this.state.count}</div>
             
-	        	/* Tạo event cho button tăng giảm Counter */
-	        	<input type="button" value="+" onClick={} />
-	        	<input type="button" value="-" onClick={} />
-        	</div>
+	        	{/* Tạo event cho button tăng giảm Counter */}
+	        	<input type="button" value="-" onClick={this.handleDecrement} />
+	        	<input type="button" value="+" onClick={this.handleIncrement} />
+	        </div>
         );
     },
 	/* Các hàm tăng giảm Counter */
@@ -42,7 +42,7 @@ const BasicCounter = React.createClass({
 
 	/* Type Checking cho Counter */
 	propTypes: function() {
-		title: React.propTypes.number	
+		title: React.PropTypes.string	
 	}
 
 });

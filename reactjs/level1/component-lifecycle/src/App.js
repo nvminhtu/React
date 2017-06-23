@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import BasicCounter from './components/BasicCounter.js';
+import AdvancedCounter from './components/AdvancedCounter.js';
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
           <h2>Component Life Cycle</h2>
         </div>
         <div className="Counter">
-          <BasicCounter />
+          <AdvancedCounter />
         </div>
       </div>
     );
