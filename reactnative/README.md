@@ -11,6 +11,7 @@
 
 ## 1 số Component mở rộng phổ biến:
 
+* [React Native List Component - to Follow](http://www.awesome-react-native.com/)
 * [React Native App Intro](https://github.com/FuYaoDe/react-native-app-intro) - dùng để làm phần App intro giới thiệu khi mở application
 * [React Native Swipe](https://github.com/sunnylqm/react-native-swiper2) - dùng để tạo slider - phần trình chiếu ảnh trong app (có thể làm phần gallery xem hình)
 * [React Native Custom Navigation](https://github.com/superdami/react-native-custom-navigation) - Giúp tạo menu gom nhóm, tính năng Refersh, Loadmore
@@ -24,3 +25,6 @@
 
 * [Awesome React Native](https://github.com/jondot/awesome-react-native) - cũng tổng hợp các Native UI phổ biến cho chúng ta lấy và sử dụng.
 * [30 Ngày học React Native](https://github.com/fangwei716/30-days-of-react-native)
+
+## CÁC KĨ THUẬT KHÁC LÀM VIỆC VỚI REACT NATIVE:
+[EXPO - TOOTL IDE giúp tạo Component dễ dàng và nhanh chóng với React Native](https://expo.io/)
