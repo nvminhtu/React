@@ -110,11 +110,11 @@
 * [React Documentation](https://facebook.github.io/react/docs/hello-world.html)
 
 
-## 2. VIDEO
+## 3. VIDEO
 * [React Tutorial](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
 
 
-## 3. CÁC PROJECT MẪU
+## 4. CÁC PROJECT MẪU
 
 ### REACT JS
 
