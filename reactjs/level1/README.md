@@ -11,6 +11,24 @@
 * React Router
 * Fetch Data
 
+## Thực hành (step by step):
+
+### [BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI01.md)
+### [BÀI 2: Sử dụng Webpack với React JS](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI02-WEBPACK.md)
+### [BÀI 3: JSX - làm quen và sử dụng + Import/Export](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI03-JSX.md)
+### [BÀI 4: React Props + CHANCE Library(để thử nghiệm)](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI04-PROPS.md)
+### [BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI05-JSX-ADVANCED.md)
+### [BÀI 6: State vs Props](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI06-STATE-PROPS.md)
+### [BÀI 7: Khởi tạo 1 Project từ đầu - PROJECT01 - Đọc dữ liệu từ 1 Feed](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI07-PROJECT01.md)
+### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI08-PROJECT02.md)
+### [BÀI 9: PROJECT03 - Đọc dữ liệu từ nhiều Feeds bằng cách gom và ko lặp lại hàm](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI09-PROJECT03.md)
+### [BÀI 10: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PropTypes.md)
+### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game đơn giản](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-SIMPLEQUIZ.md)
+### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game nâng cao](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-ADVANCEDQUIZ.md)
+### [BÀI 12: ROUTER](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-ROUTER.md)
+### [BÀI 12: PROJECT05 - Tạo Single Application Page - Trang Film](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-PROJECT05-MOVIELISTING.md)
+### [BÀI 13: - FETCH DATA](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI13-FETCH-DATA.md)
+
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
 
 * [React Router - phân biệt cách dùng](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) - vì có tới 3 package chúng ta cần phân biệt (react-router, react-router-dom, reat-router-native)
@@ -20,34 +38,20 @@
 * [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
 * [Comment code trong JSX](http://wesbos.com/react-jsx-comments/) - Cách comment trong JSX nhanh sử dụng Sublime Text Package
 
-## Thực hành (step by step):
-
-### [BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI1.md)
-### [BÀI 2: Sử dụng Webpack với React JS](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI2-WEBPACK.md)
-### [BÀI 3: JSX - làm quen và sử dụng + Import/Export](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI3-JSX.md)
-### [BÀI 4: React Props + CHANCE Library(để thử nghiệm)](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI4-PROPS.md)
-### [BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI5-JSX-ADVANCED.md)
-### [BÀI 6: State vs Props](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI6-STATE-PROPS.md)
-### [BÀI 7: Khởi tạo 1 Project từ đầu - PROJECT01 - Đọc dữ liệu từ 1 Feed](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI7-PROJECT01.md)
-### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI8-PROJECT02.md)
-### [BÀI 9: PROJECT03 - Đọc dữ liệu từ nhiều Feeds bằng cách gom và ko lặp lại hàm](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI9-PROJECT03.md)
-### [BÀI 10: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PropTypes.md)
-### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game đơn giản](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-SIMPLEQUIZ.md)
-### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game nâng cao](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-ADVANCEDQUIZ.md)
-### [BÀI 12: ROUTER](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-ROUTER.md)
-### [BÀI 12: PROJECT05 - Tạo Single Application Page - Trang Film](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-PROJECT05-MOVIELISTING.md)
-### [BÀI 13: - FETCH DATA](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI13-FETCH-DATA.md)
-
 ## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
 
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
 
 ### DANH SÁCH CÁC PROJECT TRONG LEVEL 1->3
 
-* Project 1: Fetch data từ 1 API (Github)
-* Project 2: Fetch data từ 1 API - nhiều feeds.
-* Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu
-* Project 4: Game Quiz - các câu hỏi về 1 lĩnh vực (1 câu hỏi - và chọn đáp án) - cái này ứng dụng thực tế cao ( làm bài app chứa dữ liệu các bài test Anh Văn / game đố vui / hỏi đáp vui / làm bài test tuyển dụng/...)
+* [Project 1: Fetch data từ 1 API (Github)](https://github.com/nvminhtu/React/tree/master/reactjs/project01)
+* [Project 2: Fetch data từ 1 API - nhiều feeds.](https://github.com/nvminhtu/React/tree/master/reactjs/project02)
+* [Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu](https://github.com/nvminhtu/React/tree/master/reactjs/project03)
+* [Project 4 (type 1): Simple Quiz - các câu hỏi về 1 lĩnh vực (1 câu hỏi - và chọn đáp án) - cái này ứng dụng thực tế cao ( làm bài app chứa dữ liệu các bài test Anh Văn / game đố vui / hỏi đáp vui / làm bài test tuyển dụng/...)](https://github.com/nvminhtu/React/tree/master/reactjs/project04)
+* Project 4 (type 2): Advanced Quiz - tính điểm, hiển thị số câu hiện hành, tăng điểm cộng tùy vào tình huống.
+* Project 5: [Tạo 1 trang Single Page Application (SPA) - 1 trang liệt kê danh sách phim](https://github.com/nvminhtu/React/tree/master/reactjs/project05) - React Router
+* [Project 6 (type 1): Ứng dụng xử lý Fetch Data - đọc tin từ 1 URL Reddit](https://github.com/nvminhtu/React/tree/master/reactjs/level1/fetch-data) - sử dụng Axios 
+* [Project 6 (type 2): Ứng dụng đọc và xử lý server từ Javscript Backend (Node + Express)](https://github.com/nvminhtu/React/tree/master/reactjs/project06) - NodeJS, Concurrently, Express
 * Project 5: Shopping Cart đơn giản
 * Project 6: Ứng dụng quản lý Blog đơn giản (= React * Redux)
 * Project 7: Tạo 1 trang porfolio = React
