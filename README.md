@@ -35,7 +35,8 @@
 * Babel
 * Webpack
 * NPM
-[Pre-Pack REACTJS](https://github.com/nvminhtu/React/tree/master/prepack-reactjs): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
+
+* [Pre-Pack REACTJS](https://github.com/nvminhtu/React/tree/master/prepack-reactjs): phần Pre-Pack này hỗ trợ cho những ai chưa tìm hiểu và nắm 4 cái trên.
 
 #### NPM
 * [NPM Source](https://github.com/nvminhtu/React/tree/master/prepack-reactjs/npm)

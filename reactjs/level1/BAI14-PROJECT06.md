@@ -7,6 +7,7 @@
 * Xây dựng ứng dụng dùng để tra cứu thàn phần dinh dưỡng của thực phẩm.
 * Nguồn data: lấy từ 1 số trang thống kê nguồn dinh dưỡng (Nutrition Fact)
 * User có thể tra cứu Nutrition Fact qua tên của thực phẩm (Carrot, Orange,...)
+* Thời gian thực hiện: 3 tiếng
 
 ## Kỹ thuật: 
 
