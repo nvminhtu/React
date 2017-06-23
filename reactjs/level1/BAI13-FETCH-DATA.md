@@ -16,12 +16,20 @@ Có nhiều loại như:
 * [superagent](https://github.com/visionmedia/superagent)
 * [fetch](https://github.com/github/fetch)
 
+### 3. AJAX hoạt động như thế nào trong React JS?
+
+* React JS là view => vì thế nó không có tính năng như là 1 networking, vì vậy để truyền dữ liệu từ Server qua React JS thì cần 2 bước:
+
++ download API data 
+
++ truyền data vào React như là các props
+
 ## Source code
 
 * [Source code Fetch data với Axios](https://github.com/nvminhtu/React/blob/master/reactjs/level1/fetch-data)
 
-## Project mẫu
-
 ## Nguồn tham khảo:
 
 * [Ajax Request với AJAX](https://daveceddia.com/ajax-requests-in-react/)
+* [Tìm hiểu vể AJAX chạy trong React JS như thế nào?](http://andrewhfarmer.com/how-ajax-works-react/) - bài này khá hay và cụ thể mọi người nên đọc
+
