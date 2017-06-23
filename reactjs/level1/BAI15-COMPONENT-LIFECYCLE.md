@@ -28,9 +28,3 @@ Phần trên nguồn từ Internet nhé!!!
 ![React Component LifeCycle](https://github.com/nvminhtu/React/blob/master/reactjs/level1/bai14/react-component-lifecycle.jpeg "React Component LifeCycle")
 
 ## Nguồn tham khảo:
-
-* [Ajax Request với AJAX](https://daveceddia.com/ajax-requests-in-react/)
-* [Tìm hiểu vể AJAX chạy trong React JS như thế nào?](http://andrewhfarmer.com/how-ajax-works-react/) - bài này khá hay và cụ thể mọi người nên đọc
-* [Tổng quan hơn về AJAX trong REACT](http://andrewhfarmer.com/react-ajax-best-practices/) 
-* [Hiểu về nhiều cách và cách sử dụng các công nghệ khác nhau để thực hiện việc fetch Data với AJAX](http://andrewhfarmer.com/react-ajax-best-practices/) - Thông qua State - Props (RootComponent) - Server, Container Component - Server, Redux Async - Server, GrapQL-Relay-React Component - Server)
-
