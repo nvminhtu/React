@@ -66,7 +66,8 @@
 * React Router
 * Fetch Data
 
-### [Level 2] Các kĩ thuật cần phải biết để xây dựng project React JS
+### [<Level 2> Các kĩ thuật cần phải biết để xây dựng project React JS](https://github.com/nvminhtu/React/tree/master/reactjs/level2)
+
 * Flux
 * Redux
 * GraphQL
