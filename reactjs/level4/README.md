@@ -2,8 +2,8 @@
 
 ## Nội dung:
 
-* Các bài thực hành áp dụng các kiến thức ở.
-* Lưu ý: Mỗi bài này sẽ áp dụng các kĩ thuật từ level 1->3 nên nếu không hiểu xem lại ở từng level.
+* Các bài thực hành áp dụng các kiến thức ở các phần đã luyện 
+* Lưu ý: Mỗi bài này sẽ áp dụng các kĩ thuật từ các level trên nếu không hiểu xem lại ở từng level.
 * Có thể sử dụng các kĩ thuật khác từ bên ngoài.
 * Có thể sử dụng các thuật toán và code javascript (sẽ note snippet riêng).
 
