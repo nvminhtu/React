@@ -6,7 +6,7 @@ import axios from 'axios';
 export default class Detail extends React.Component {
     constructor(props){
         super(props);
-
+        this.mang = [1,2,3];
         this.state = {
             data : [],
             repos : []
@@ -51,7 +51,7 @@ export default class Detail extends React.Component {
         
         return(
             <div>
-            
+       
             <h1 onClick={this.handleClick} >Click me Axios</h1>
             <h1 onClick={this.handleClickSugerAgent} >Click me SugerAgent</h1>
             {
