@@ -105,5 +105,6 @@ Product > Clean Build Folder
 ## CÁC BÀI THAM KHẢO
 
 * [Getting Started with React Native](http://facebook.github.io/react-native/docs/getting-started.html)
+* [Đổi tên Component trong React Native](http://blog.tylerbuchea.com/renaming-a-react-native-project/)
 
 
