@@ -25,7 +25,7 @@ Có nhiều loại như:
 
 + truyền data vào React như là các props
 
-
+![Diagram Full](https://github.com/nvminhtu/React/blob/master/reactjs/level1/bai13/diagram-full.png "Diagram Full")
 
 
 ## Source code
