@@ -9,6 +9,9 @@
 * Làm quen về Modules trong iOS và Android
 * Debug và các lỗi thường gặp
 
+## List to Understand:
+
+
 ## 1 số Component mở rộng phổ biến:
 
 * [React Native List Component - to Follow](http://www.awesome-react-native.com/)
