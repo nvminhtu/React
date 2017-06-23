@@ -49,7 +49,7 @@
 * [Project 3: Fetch data từ 1 API - nhiều feeds - gom nhóm và tối ưu](https://github.com/nvminhtu/React/tree/master/reactjs/project03)
 * [Project 4 (type 1): Simple Quiz - các câu hỏi về 1 lĩnh vực (1 câu hỏi - và chọn đáp án) - cái này ứng dụng thực tế cao ( làm bài app chứa dữ liệu các bài test Anh Văn / game đố vui / hỏi đáp vui / làm bài test tuyển dụng/...)](https://github.com/nvminhtu/React/tree/master/reactjs/project04)
 * Project 4 (type 2): Advanced Quiz - tính điểm, hiển thị số câu hiện hành, tăng điểm cộng tùy vào tình huống.
-* Project 5: [Tạo 1 trang Single Page Application (SPA) - 1 trang liệt kê danh sách phim](https://github.com/nvminhtu/React/tree/master/reactjs/project05) - React Router
+* [Project 5: Tạo 1 trang Single Page Application (SPA) - 1 trang liệt kê danh sách phim](https://github.com/nvminhtu/React/tree/master/reactjs/project05) - React Router
 * [Project 6 (type 1): Ứng dụng xử lý Fetch Data - đọc tin từ 1 URL Reddit](https://github.com/nvminhtu/React/tree/master/reactjs/level1/fetch-data) - sử dụng Axios 
 * [Project 6 (type 2): Ứng dụng đọc và xử lý server từ Javscript Backend (Node + Express)](https://github.com/nvminhtu/React/tree/master/reactjs/project06) - NodeJS, Concurrently, Express
 * Project 5: Shopping Cart đơn giản
