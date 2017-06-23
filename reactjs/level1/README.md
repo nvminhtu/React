@@ -13,21 +13,21 @@
 
 ## Thực hành (step by step):
 
-### [BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI01.md)
-### [BÀI 2: Sử dụng Webpack với React JS](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI02-WEBPACK.md)
-### [BÀI 3: JSX - làm quen và sử dụng + Import/Export](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI03-JSX.md)
-### [BÀI 4: React Props + CHANCE Library(để thử nghiệm)](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI04-PROPS.md)
-### [BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI05-JSX-ADVANCED.md)
-### [BÀI 6: State vs Props](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI06-STATE-PROPS.md)
-### [BÀI 7: Khởi tạo 1 Project từ đầu - PROJECT01 - Đọc dữ liệu từ 1 Feed](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI07-PROJECT01.md)
-### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI08-PROJECT02.md)
-### [BÀI 9: PROJECT03 - Đọc dữ liệu từ nhiều Feeds bằng cách gom và ko lặp lại hàm](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI09-PROJECT03.md)
-### [BÀI 10: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PropTypes.md)
-### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game đơn giản](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-SIMPLEQUIZ.md)
-### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game nâng cao](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-ADVANCEDQUIZ.md)
-### [BÀI 12: ROUTER](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-ROUTER.md)
-### [BÀI 12: PROJECT05 - Tạo Single Application Page - Trang Film](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-PROJECT05-MOVIELISTING.md)
-### [BÀI 13: - FETCH DATA](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI13-FETCH-DATA.md)
+#### [BÀI 1: Khởi tạo project ReactJS với NodeJS + Webpack + Babel](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI01.md)
+#### [BÀI 2: Sử dụng Webpack với React JS](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI02-WEBPACK.md)
+#### [BÀI 3: JSX - làm quen và sử dụng + Import/Export](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI03-JSX.md)
+#### [BÀI 4: React Props + CHANCE Library(để thử nghiệm)](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI04-PROPS.md)
+#### [BÀI 5: JSX - nâng cao, các lệnh hay sử dụng trong JSX](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI05-JSX-ADVANCED.md)
+#### [BÀI 6: State vs Props](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI06-STATE-PROPS.md)
+#### [BÀI 7: Khởi tạo 1 Project từ đầu - PROJECT01 - Đọc dữ liệu từ 1 Feed](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI07-PROJECT01.md)
+#### [BÀI 8: PROJECT02 - Đọc dữ liệu từ nhiều Feeds](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI08-PROJECT02.md)
+#### [BÀI 9: PROJECT03 - Đọc dữ liệu từ nhiều Feeds bằng cách gom và ko lặp lại hàm](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI09-PROJECT03.md)
+#### [BÀI 10: PROPTYPES](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI10-PropTypes.md)
+#### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game đơn giản](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-SIMPLEQUIZ.md)
+#### [BÀI 11: PROJECT04 - Tạo ứng dụng Quiz Game nâng cao](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI11-PROJECT04-ADVANCEDQUIZ.md)
+#### [BÀI 12: ROUTER](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-ROUTER.md)
+#### [BÀI 12: PROJECT05 - Tạo Single Application Page - Trang Film](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-PROJECT05-MOVIELISTING.md)
+#### [BÀI 13: - FETCH DATA](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI13-FETCH-DATA.md)
 
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
 

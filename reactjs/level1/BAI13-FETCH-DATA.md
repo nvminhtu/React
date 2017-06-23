@@ -18,11 +18,15 @@ Có nhiều loại như:
 
 ### 3. AJAX hoạt động như thế nào trong React JS?
 
+#### Flow:
 * React JS là view => vì thế nó không có tính năng như là 1 networking, vì vậy để truyền dữ liệu từ Server qua React JS thì cần 2 bước:
 
 + download API data 
 
 + truyền data vào React như là các props
+
+
+
 
 ## Source code
 
