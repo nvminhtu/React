@@ -14,6 +14,10 @@
 
 ## 1 số Component mở rộng phổ biến:
 
+### Hiệu ứng trong React Native
+
+* [React Native Swiper](https://github.com/leecade/react-native-swiper)
+
 * [React Native List Component - to Follow](http://www.awesome-react-native.com/)
 * [React Native App Intro](https://github.com/FuYaoDe/react-native-app-intro) - dùng để làm phần App intro giới thiệu khi mở application
 * [React Native Swipe](https://github.com/sunnylqm/react-native-swiper2) - dùng để tạo slider - phần trình chiếu ảnh trong app (có thể làm phần gallery xem hình)
