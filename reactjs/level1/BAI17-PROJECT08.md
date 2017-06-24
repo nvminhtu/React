@@ -6,3 +6,6 @@
 ## Nội dung Project
 
 * đang cập nhật
+
+## Reference:
+* [Tích hợp React và D3](http://www.adeveloperdiary.com/react-js/integrate-react-and-d3/)
