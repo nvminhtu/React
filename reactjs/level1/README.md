@@ -28,6 +28,10 @@
 * [BÀI 12: ROUTER](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-ROUTER.md)
 * [BÀI 12: PROJECT05 - Tạo Single Application Page - Trang Film](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI12-PROJECT05-MOVIELISTING.md)
 * [BÀI 13: FETCH DATA](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI13-FETCH-DATA.md)
+* [BÀI 14: PROJECT 06](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI14-PROJECT06.md)
+* [BÀI 15: COMPONENT LIFE CYCLE](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI15-COMPONENT-LIFECYCLE.md)
+* [BÀI 16: PROJECT 07](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI16-PROJECT07.md)
+* [BÀI 17: PROJECT 08](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI17-PROJECTO8.md)
 
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
 
