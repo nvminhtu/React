@@ -28,14 +28,30 @@
 
 * [Chuyển từ Flux lên Redux - hiểu qua mô hình](https://blog.axosoft.com/2017/04/11/reduxifying-gitkraken/)
 
+
 ### Hiểu về REDUX
 
-* [1. Hiểu về Redux - 1 State container](http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container)
+* [Trang này tổng hợp tất cả liên quan Redux](https://github.com/xgrommx/awesome-redux)
 
-* [2. Hiểu về Redux - ví dụ Cartoon dễ hiểu](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
+* [Hiểu về Redux - 1 State container](http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container)
 
+* [Hiểu về Redux - ví dụ Cartoon dễ hiểu](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
+
+* [Sự khác nhau giữa Flux và Redux](https://edgecoders.com/the-difference-between-flux-and-redux-71d31b118c1)
+
+* [Chuyển đổi từ Flux qua Redux](http://redux.js.org/docs/recipes/MigratingToRedux.html)
+
+* [Migrate Flux to Redux](http://tech.m6web.fr/migrate-smoothly-flux-isomorphic-app-to-redux/)
+
+* [Hiểu rõ hơn về mô  hình Redux](https://medium.com/javascript-scene/10-tips-for-better-redux-architecture-69250425af44)
+
+* [Redux Thunk - cách sử dụng](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)
+
+* [Project 2.4 - Xây dựng TodoApp kết hợp Redux và React J](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a)
 
 ### Tutorial
 
 * [React + Redux](https://medium.com/front-end-developers/react-redux-tutorial-d1f6c6652759)
-* 
+
+
+Have fun and Happy coding!!!
