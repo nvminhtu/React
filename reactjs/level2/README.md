@@ -51,6 +51,7 @@
 
 * [Project 2.5 - Xây dựng ứng dụng Friendlist với Redux và React](http://www.jchapron.com/2015/08/14/getting-started-with-redux/)
 
+* [Project 2.6 - React Redux Example](http://blog.krawaller.se/posts/a-react-redux-example-app/)
 ### Tutorial
 
 * [React + Redux](https://medium.com/front-end-developers/react-redux-tutorial-d1f6c6652759)
