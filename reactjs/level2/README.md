@@ -49,6 +49,8 @@
 
 * [Project 2.4 - Xây dựng TodoApp kết hợp Redux và React J](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a)
 
+* [Project 2.5 - Xây dựng ứng dụng Friendlist với Redux và React](http://www.jchapron.com/2015/08/14/getting-started-with-redux/)
+
 ### Tutorial
 
 * [React + Redux](https://medium.com/front-end-developers/react-redux-tutorial-d1f6c6652759)
