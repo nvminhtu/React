@@ -37,8 +37,11 @@
 + BÀI 20: PROJECT 11 - 5 mini Project: Order Form, Football Simple Quiz, Tạo Menu với Code React JS, Real Time Search Bar, React Slider - app learn for Kids)
 
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
-
+* [ES7 - Sử dụng React JS với ES7](https://medium.com/@fakiolinho/reactjs-and-es7-bbedb9862e61)
 * [Props - Tìm hiểu thêm về Properties trong React JS](https://medium.com/react-tutorials/react-properties-ef11cd55caa0)
+* [Auth0 - kết hợp React JS với Auth0 để xác định Authenication](https://auth0.com/blog/reactjs-authentication-tutorial/)
+* [ComisJS - Sử dụng ComisJS với React JS để làm 1 Content Management](https://cosmicjs.com/)
+* [Tạo Friendly React blog với API dựa trên CMS](https://hackernoon.com/react-js-cms-blog-tutorial-e090c699845b)
 * [React Router - phân biệt cách dùng](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) - vì có tới 3 package chúng ta cần phân biệt (react-router, react-router-dom, reat-router-native)
 * [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
 * [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
@@ -46,8 +49,13 @@
 * [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
 * [Comment code trong JSX](http://wesbos.com/react-jsx-comments/) - Cách comment trong JSX nhanh sử dụng Sublime Text Package
 
+### Universal App
+* [Electrode - Platform để build Universal React/Nodejs Application](http://www.electrode.io/docs/what_is_electrode.html)
 
-## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
+### React Redux
+* [Cấu trúc giúp hiểu hơn về React-Redux Boilerplate](https://hackernoon.com/isomorphic-universal-boilerplate-react-redux-server-rendering-tutorial-example-webpack-compenent-6e22106ae285)
+
+### SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
 
 * [SOURCE DEMO KHỞI TẠO PROJECT](https://github.com/nvminhtu/React/tree/master/reactjs/source)
 
