@@ -22,6 +22,12 @@
 
 * [Project 2.2 - Thực hành tạo 1 mô hình Flux sử dụng React + kết hợp với Gulp làm build tool](https://tonyspiro.com/building-a-simple-react-application-using-the-flux-pattern/)
 
+* [Project 2.3 - Nâng cao hơn bằng cách viết 1 app phức tạp hơn kết hợp sử dụng Flux và React](https://madebymany.com/stories/beyond-the-to-do-app-writing-complex-applications-using-flux-react-js)
+
+* [Chuyển từ Flux lên Redux hiểu qua 4 loại Demo](http://react.tips/from-react-to-flux-to-redux/)
+
+* [Chuyển từ Flux lên Redux - hiểu qua mô hình](https://blog.axosoft.com/2017/04/11/reduxifying-gitkraken/)
+
 ### Hiểu về REDUX
 
 * [1. Hiểu về Redux - 1 State container](http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container)
