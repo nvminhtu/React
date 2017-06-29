@@ -37,5 +37,8 @@
 * [Awesome React Native](https://github.com/jondot/awesome-react-native) - cũng tổng hợp các Native UI phổ biến cho chúng ta lấy và sử dụng.
 * [30 Ngày học React Native](https://github.com/fangwei716/30-days-of-react-native)
 
+## Các Project build với EXPO (Tool)
+* [Tạo nhanh 1 pizza app với React Native](https://react.jsnews.io/i-made-a-pizza-builder-app-using-expoio-and-reactjs-for-the-reactriot-hackathon/?source=medium)
+
 ## CÁC KĨ THUẬT KHÁC LÀM VIỆC VỚI REACT NATIVE:
 [EXPO - TOOTL IDE giúp tạo Component dễ dàng và nhanh chóng với React Native](https://expo.io/)

@@ -35,12 +35,14 @@
 
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
 
+* [Props - Tìm hiểu thêm về Properties trong React JS](https://medium.com/react-tutorials/react-properties-ef11cd55caa0)
 * [React Router - phân biệt cách dùng](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf) - vì có tới 3 package chúng ta cần phân biệt (react-router, react-router-dom, reat-router-native)
 * [Tại sao sử dụng phương thức Bind trong React Component và các Class](http://reactkungfu.com/2015/07/why-and-how-to-bind-methods-in-your-react-component-classes/)
 * [Những lỗi React JS phổ biến - ko sử dụng State](http://reactkungfu.com/2015/09/common-react-dot-js-mistakes-unneeded-state/)
 * [Props và State là gì?](http://teachyourself.vn/react/bai-3-props-state-la-gi.html)
 * [Gitbook hay về React](https://rangle-io.gitbooks.io/react-training/content/book/react_components/stateful.html)
 * [Comment code trong JSX](http://wesbos.com/react-jsx-comments/) - Cách comment trong JSX nhanh sử dụng Sublime Text Package
+
 
 ## SOURCE CODE bài thực hành lưu tại: (Các project thì vào folder project đánh số tương ứng)
 
