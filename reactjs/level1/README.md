@@ -32,6 +32,9 @@
 * [BÀI 15: COMPONENT LIFE CYCLE](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI15-COMPONENT-LIFECYCLE.md)
 * [BÀI 16: PROJECT 07](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI16-PROJECT07.md)
 * [BÀI 17: PROJECT 08](https://github.com/nvminhtu/React/blob/master/reactjs/level1/BAI17-PROJECTO8.md)
++ BÀI 18: PROJECT 9 - Build ứng dụng áp dụng các kĩ thuật Fetch Data và React Router
++ BÀI 19: PROJECT 10 - Build ứng dụng sử dụng D3 JS và React
++ BÀI 20: PROJECT 11 - 5 mini Project: Order Form, Football Simple Quiz, Tạo Menu với Code React JS, Real Time Search Bar, React Slider - app learn for Kids)
 
 ## MỘT SỐ VẤN ĐỀ HAY THAM KHẢO:
 
