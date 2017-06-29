@@ -54,7 +54,13 @@
 * [Project 2.6 - React Redux Example](http://blog.krawaller.se/posts/a-react-redux-example-app/)
 ### Tutorial
 
+* [Rèn luyện về Redux](http://lorenstewart.me/2016/11/27/a-practical-guide-to-redux/)
+
 * [React + Redux](https://medium.com/front-end-developers/react-redux-tutorial-d1f6c6652759)
 
+* [Project 2.7 - Kết hợp Firebase để build ứng dụng với Redux và React](https://www.codementor.io/vijayst/using-firebase-with-redux-for-building-a-react-app-du1086puw)
 
+* [Hiểu sâu về các thành phần trong cấu Redux Application](http://jpsierens.com/simple-react-redux-application/)
+
+* [PREACT - REPLACEMENT FOR REACT (Sử dụng code React nhưng đã được làm gọn nhẹ và tối ưu về performance - thích hợp để phát triển app mobile)](https://medium.com/@rajaraodv/using-preact-instead-of-react-70f40f53107c) 
 Have fun and Happy coding!!!
