@@ -272,7 +272,7 @@ export default Movies;
 
 * React Router có hỗ trợ ko? => Có, React Router hỗ trợ <Miss>
 
-* Làm sao khai báo và sử dụng? => OK, tương tự như các <Router>, <Match>, <Link>, chúng ta cũng cần chỉ định Component của <Miss>
+* Làm sao khai báo và sử dụng? => OK, tương tự như các Router, Match, Link, chúng ta cũng cần chỉ định Component của Miss
 
 * Trong App.js chúng ta chỉnh sửa lại code như sau:
 

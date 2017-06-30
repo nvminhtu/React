@@ -1,10 +1,10 @@
-#LEVEL 2: CÁC PHẦN LIÊN QUAN KẾT HỢP VỚI REACT
+# sLEVEL 2: CÁC PHẦN LIÊN QUAN KẾT HỢP VỚI REACT
 
 ## Nội dung
 * Redux
 * Flux
 * Relay
-* GrapQL
+* GrapQLs
 
 ## Step by step
 
@@ -47,7 +47,7 @@
 
 * [Redux Thunk - cách sử dụng](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)
 
-* [Project 2.4 - Xây dựng TodoApp kết hợp Redux và React J](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a)
+* [Project 2.4 - Xây dựng TodoApp kết hợp Redux và React JS](https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a)
 
 * [Project 2.5 - Xây dựng ứng dụng Friendlist với Redux và React](http://www.jchapron.com/2015/08/14/getting-started-with-redux/)
 
@@ -62,5 +62,6 @@
 
 * [Hiểu sâu về các thành phần trong cấu Redux Application](http://jpsierens.com/simple-react-redux-application/)
 
-* [PREACT - REPLACEMENT FOR REACT (Sử dụng code React nhưng đã được làm gọn nhẹ và tối ưu về performance - thích hợp để phát triển app mobile)](https://medium.com/@rajaraodv/using-preact-instead-of-react-70f40f53107c) 
+* [PREACT - REPLACEMENT FOR REACT (Sử dụng code React nhưng đã được làm gọn nhẹ và tối ưu về performance - thích hợp để phát triển app mobile)](https://medium.com/@rajaraodv/using-preact-instead-of-react-70f40f53107c)
+
 Have fun and Happy coding!!!
