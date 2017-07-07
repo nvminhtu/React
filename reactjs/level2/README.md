@@ -16,6 +16,7 @@
 
 * [Loạt video làm project từ đầu đến cuối = React kết hợp Redux ](https://www.youtube.com/watch?v=yoJuOs-niIc&list=PLuNEz8XtB51K-x3bwCC9uNM_cxXaiCcRY&index=2)
 
+
 ### Hiểu về REDUX
 
 * [Trang này tổng hợp tất cả liên quan Redux](https://github.com/xgrommx/awesome-redux)
@@ -41,6 +42,7 @@
 * [Project 2.5 - Xây dựng ứng dụng Friendlist với Redux và React](http://www.jchapron.com/2015/08/14/getting-started-with-redux/)
 
 * [Project 2.6 - React Redux Example](http://blog.krawaller.se/posts/a-react-redux-example-app/)
+
 ### Tutorial
 
 * [Rèn luyện về Redux](http://lorenstewart.me/2016/11/27/a-practical-guide-to-redux/)
@@ -52,8 +54,6 @@
 * [Hiểu sâu về các thành phần trong cấu Redux Application](http://jpsierens.com/simple-react-redux-application/)
 
 * [PREACT - REPLACEMENT FOR REACT (Sử dụng code React nhưng đã được làm gọn nhẹ và tối ưu về performance - thích hợp để phát triển app mobile)](https://medium.com/@rajaraodv/using-preact-instead-of-react-70f40f53107c)
-
-
 
 ### Hiểu về FLUX
 
@@ -75,5 +75,8 @@
 
 * [Chuyển từ Flux lên Redux - hiểu qua mô hình](https://blog.axosoft.com/2017/04/11/reduxifying-gitkraken/)
 
+### Các thủ thuật lượm lặt với React JS
+
+* [chuyển đổi từ React Route v2/3 sang React Router v4](https://github.com/ReactTraining/react-router/blob/25776d4dc89b8fb2f575884749766355992116b5/packages/react-router/docs/guides/migrating.md#the-router)
 
 Have fun and Happy coding!!!
