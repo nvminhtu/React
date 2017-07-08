@@ -79,4 +79,13 @@
 
 * [chuyển đổi từ React Route v2/3 sang React Router v4](https://github.com/ReactTraining/react-router/blob/25776d4dc89b8fb2f575884749766355992116b5/packages/react-router/docs/guides/migrating.md#the-router)
 
+### SOURCE CODE và THỰC HÀNH
+
+* [React Redux]()
+* [React kết hợp với Wordpress là API]()
+* [React Hybrid + CSS Responsive chạy trên Mobile]
+* [React kết hợp Firebase]
+ß
+
+
 Have fun and Happy coding!!!
