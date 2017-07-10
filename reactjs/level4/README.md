@@ -7,6 +7,12 @@
 * Có thể sử dụng các kĩ thuật khác từ bên ngoài.
 * Có thể sử dụng các thuật toán và code javascript (sẽ note snippet riêng).
 
+
+## Danh sách Project thực hiện:
+
+* [Project01](https://github.com/nvminhtu/React/blob/master/reactjs/level4/project01)Ứng dụng load dữ liệu bài học tiếng Anh từ 1 trang Wordpress (dùng Wordpress làm API JSON)
+
+
 ## Danh sách Project: (sẽ được đánh số tiếp tục - theo sau level 1)
 
 * Ứng dụng Hello World (áp dụng sử dụng các Component, Parent-Child Component, Helper Function,State, Props).
