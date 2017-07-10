@@ -10,7 +10,7 @@
 
 ## Danh sách Project thực hiện:
 
-* [Project01](https://github.com/nvminhtu/React/blob/master/reactjs/level4/project01)Ứng dụng load dữ liệu bài học tiếng Anh từ 1 trang Wordpress (dùng Wordpress làm API JSON)
+* [Project01](https://github.com/nvminhtu/React/blob/master/reactjs/level4/project01) Ứng dụng load dữ liệu từ 1 trang Wordpress (dùng Wordpress làm API JSON)
 
 
 ## Danh sách Project: (sẽ được đánh số tiếp tục - theo sau level 1)
@@ -19,7 +19,7 @@
 * Ứng dụng tạo ra danh sách các Component (Container Component).
 * Ứng dụng Shopping List nhỏ.
 * Ứng dụng Todo.
----- continue to be update.
+
 
 ## Các trang tham khảo:
 
