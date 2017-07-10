@@ -18,7 +18,7 @@ class App extends Component {
           movies: res
         })
       })
-  }{
+  }
   render() {
     
     // arrow Function for movies variables (let)
