@@ -11,6 +11,7 @@
 ## Danh sách Project thực hiện:
 
 * [Project01](https://github.com/nvminhtu/React/blob/master/reactjs/level4/project01) Ứng dụng load dữ liệu từ 1 trang Wordpress (dùng Wordpress làm API JSON)
+* [Project02](http://www.jchapron.com/2015/08/14/getting-started-with-redux/) Thực hành với React và Redux
 
 
 ## Danh sách Project: (sẽ được đánh số tiếp tục - theo sau level 1)
