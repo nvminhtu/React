@@ -82,9 +82,9 @@
 
 #### REDUX: 
 
-* [Project 2.0] - Xây dựng và thực hành với Redux(http://lorenstewart.me/2016/11/27/a-practical-guide-to-redux/)
+* [Project 2.0](http://lorenstewart.me/2016/11/27/a-practical-guide-to-redux/) - Xây dựng và thực hành với Redux
 
-* [Project 2.1 - Xây dựng TodoApp kết hợp Redux và React JS]
+* [Project 2.1]() - Xây dựng TodoApp kết hợp Redux và React JS
 
 * [Project 2.2 - Xây dựng ứng dụng Friendlist với Redux và React](http://www.jchapron.com/2015/08/14/getting-started-with-redux/)
 
