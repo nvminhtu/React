@@ -1,4 +1,4 @@
-# sLEVEL 2: CÁC PHẦN LIÊN QUAN KẾT HỢP VỚI REACT
+# LEVEL 2: CÁC PHẦN LIÊN QUAN KẾT HỢP VỚI REACT
 
 ## Nội dung
 * Redux
@@ -24,8 +24,10 @@
 * [Redux và Redux Thunk](https://medium.com/@stowball/a-dummys-guide-to-redux-and-thunk-in-react-d8904a7005d3)- ví dụ tạo kết hợp giữa 2 thằng này
 
 * [Hiểu về Redux - 1 State container](http://www.youhavetolearncomputers.com/blog/2015/9/15/a-conceptual-overview-of-redux-or-how-i-fell-in-love-with-a-javascript-state-container)
+=> Read: hiểu thêm về cây và cách hoạt động của Redux (Store, dispatchers,...)
 
 * [Hiểu về Redux - ví dụ Cartoon dễ hiểu](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6)
+=> Cực kì dễ hiểu khi coi về Redux
 
 * [Sự khác nhau giữa Flux và Redux](https://edgecoders.com/the-difference-between-flux-and-redux-71d31b118c1)
 
@@ -85,7 +87,13 @@
 * [React kết hợp với Wordpress là API]()
 * [React Hybrid + CSS Responsive chạy trên Mobile]
 * [React kết hợp Firebase]
-ß
 
+
+### Một số câu hỏi
+
+* Middleware là gì?
+* Thunk (Redux Thunk)
+* Third Party can thiệp vào đâu trong mô hình Redux?
+* Hiểu về Redux Cycle? (Root Reducer và Reducer)
 
 Have fun and Happy coding!!!
