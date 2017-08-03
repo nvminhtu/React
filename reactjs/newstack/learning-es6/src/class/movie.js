@@ -1,18 +1,10 @@
 // @flow
+// class syntax
+class Media {}
+class Movie extends Media {
 
-class Media {
-  name: string
-  static defaultMedia() {
-    return new string();
-  }
-}
-class Movie extends Entertainment {
-
-  constructor(price) {
-    super(price);
-  }
-
-  constructor(name: string) {
+  constructor(price, name) {
+    super(price)
     this.name = name
   }
 

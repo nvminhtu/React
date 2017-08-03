@@ -5,9 +5,9 @@
   "browserslist": ["> 1%"],
   "scripts": {
     "start": "babel-node src",
-    "test": "eslint src && flow && jest --coverage",
-    "precommit": "npm test",
-    "prepush": "npm test"
+    "test": "eslint src",
+    "precommit": "yarn test",
+    "prepush": "yarn test"
   },
   "dependencies": {},
   "devDependencies": {
