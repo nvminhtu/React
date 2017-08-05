@@ -3,25 +3,19 @@
 class Calculator {
 
   // pass array argument with rest
-  static sum(...input) {
-    return input.reduce((sum, value) => sum + value, 0)
+  static sum(...args) {
+    return args.reduce((sum, value) => sum + value, 0)
   }
 
   // tn: ehancement for reduce
-  static 
-}
+  static sumUpgraded(...args) {
+  	function filterNumbers() {
+  		return Array.prototype.filter.call(args, element => typeof element === 'number');
+  	}
+  	var numbers = fulterNumbers();
 
-export default Calculator
-
-
-function sumOnlyNumbers() {  
-  var args = arguments;
-  var numbers = filterNumbers();
-  return numbers.reduce((sum, element) => sum + element);
-  function filterNumbers() {
-     return Array.prototype.filter.call(args, 
-       element => typeof element === 'number'
-     );
+	   return numbers.reduce((sum, value) => sum + value, 0)
   }
 }
-sumOnlyNumbers(1, 'Hello', 5, false); // => 6  
+
+export default Calculator;
