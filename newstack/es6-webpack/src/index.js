@@ -77,13 +77,13 @@ multilineItems(); */
 // DestructuringAssign();
 
 //7. ARRAY DESTRUCTURING ----------------
-import {
-  Destructuring,
-  ArrDestructing
-} from './array';
+// import {
+//   Destructuring,
+//   ArrDestructing
+// } from './array';
 
-Destructuring();
-ArrDestructing();
+// Destructuring();
+// ArrDestructing();
 
 // end file
 
@@ -99,3 +99,8 @@ ArrDestructing();
 // showTestIterators();
 
 // console.log('test');
+
+
+// ****** SETUP from calling from specific folders ******* //
+import { basicArrow } from './arrow/basic';
+basicArrow();
