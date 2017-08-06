@@ -76,13 +76,14 @@ multilineItems(); */
 // Destructuring();
 // DestructuringAssign();
 
-// 7. ARRAY DESTRUCTURING ----------------
-// import {
-//   Destructuring,
-//   ArrDestructing
-// } from './array';
-// Destructuring();
-// ArrDestructing();
+//7. ARRAY DESTRUCTURING ----------------
+import {
+  Destructuring,
+  ArrDestructing
+} from './array';
+
+Destructuring();
+ArrDestructing();
 
 // end file
 
@@ -96,5 +97,5 @@ multilineItems(); */
 // 9. Iterators & Generators
 // import { Iterators, showTestIterators } from './iterators.js';
 // showTestIterators();
-//
+
 // console.log('test');
