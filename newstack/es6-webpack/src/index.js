@@ -102,5 +102,9 @@ multilineItems(); */
 
 
 // ****** SETUP from calling from specific folders ******* //
-import { basicArrow } from './arrow/basic';
-basicArrow();
+// import { basicArrow } from './arrow/basic';
+// basicArrow();
+
+import { customClass } from './class/class';
+customClass();
+
