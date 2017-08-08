@@ -1,10 +1,9 @@
 // @flow
 // class syntax
-class Media {}
-class Movie extends Media {
+export class Movie {
 
   constructor(price, name) {
-    super(price)
+    this.price = price
     this.name = name
   }
 
@@ -12,5 +11,3 @@ class Movie extends Media {
     return `Begin ${this.name}`
   }
 }
-
-export default Movie

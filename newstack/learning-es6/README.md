@@ -6,6 +6,7 @@
 * [Rest](spread_rest): Pass array as argument
 * [Spread](spread_rest): use to expand or assign array, object
 * [Promise](promises): is an object representing the eventual completion or failure of an asynchronous operation [more](http://jamesknelson.com/grokking-es6-promises-the-four-functions-you-need-to-avoid-callback-hell)
+* [Proxies](proxies): is used to define custom behavior for fundamental operations
 
 ## Run Example
 `npm install -g babel-cli`
