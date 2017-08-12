@@ -45,8 +45,5 @@
   "bugs": {
     "url": "https://github.com/petercunha/react-bootstrap-webpack-Boilerplate/issues"
   },
-  "homepage": "https://github.com/petercunha/react-bootstrap-webpack-Boilerplate",
-  "dependencies": {
-    "jquery": "^3.2.1"
-  }
+  "homepage": "https://github.com/petercunha/react-bootstrap-webpack-Boilerplate"
 }

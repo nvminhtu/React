@@ -53,7 +53,11 @@ module.exports = {
 			{
 				test: /\.(ttf|eot|svg|woff|woff2)$/,
 				loader: 'file-loader?name=fonts/[name].[ext]'
-			}
+			},
+			{
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+        loader: 'url-loader',
+      }
 		]
 	}
 };
