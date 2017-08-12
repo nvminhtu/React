@@ -18,5 +18,11 @@ class App extends Component {
   }
 }
 
-// export class 
+// class weShare {
+//   function sum(a, b) {
+//     return a + b;
+//   }
+// }
+
+// export classes
 export { App };
