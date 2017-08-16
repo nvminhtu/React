@@ -113,3 +113,8 @@ When you need to utilize a Component Lifecycle hook
 
 ## 2. Middleware trong Redux là gì ?
 ## 3. Khi 1 form đơn giản thì mình sử dung Uncontrolled Component hay luôn phải sử dụng Controlled Component để bản thân Component quản lý các input tốt hơn ?
+
+## 4.What is the difference between NPM and YARN?
+
+* [Answer](https://medium.com/@nikjohn/facebooks-yarn-vs-npm-is-yarn-really-better-1890b3ea6515)
+* [How to use YARN](https://www.sitepoint.com/yarn-vs-npm/)
