@@ -17,7 +17,9 @@
 * Q7. How to comment in JSX file?
  
 * Q8 - Create component using create react app and upload to NPM
- 
+
+* Q9 - How can I call action in a Stateful Component? Why should I call fallback function in construction?
+
 ## List of Answers
 * A1. We can use `yarn` or `npm` install - it is usual. [We can refer this document](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#installing-a-dependency)
 
