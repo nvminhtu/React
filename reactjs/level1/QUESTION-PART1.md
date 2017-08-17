@@ -20,6 +20,8 @@
 
 * Q9 - How can I call action in a Stateful Component? Why should I call fallback function in construction?
 
+* Q10 - Do you know how to use Boostrap with `create-react-app`?
+
 ## List of Answers
 * A1. We can use `yarn` or `npm` install - it is usual. [We can refer this document](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#installing-a-dependency)
 
@@ -29,3 +31,22 @@
  ```
 
 * A8. We can follow the best way to create NPM packages by using `create-react-app` [read this article](https://medium.com/@lokhmakov/best-way-to-create-npm-packages-with-create-react-app-b24dd449c354)
+
+* A10. We can install dependency bootstrap and less or sass to code it in project.
+[Follow this guide] (https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
+or use the existed one
+```
+npm install react-bootstrap --save
+npm install bootstrap@3 --save
+```
+Call in files 
+```
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
+```
+Call Component from `react-bootstrap`
+```
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+```

@@ -3,6 +3,9 @@ import Hello from './components/Hello/Hello';
 import MessageContainer from './components/MessageContainer/MessageContainer';
 import PanelContainer from './components/PanelContainer/PanelContainer';
 
+// customize CSS (call component from react-bootstrap)
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
+
 import logo from './logo.svg';
 import './App.css';
 
