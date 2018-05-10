@@ -7,4 +7,8 @@ npm init -y
 npm install webpack webpack-cli --save-dev
 ```
 
-# 2.
+* Setup ES6 with Webpack
+`npm install babel-core babel-loader babel-preset-es2015 webpack --save-dev`
+
+* Reference
+[ES6 Babel Webpack](http://ccoenraets.github.io/es6-tutorial-data/babel-webpack/)
