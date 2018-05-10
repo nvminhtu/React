@@ -93,3 +93,39 @@ for (let char of string) {
 
 
 // 5. Spread Attribute
+// not passing array, passing elements 
+
+/// 01. without spread
+/*
+let sumAll = (arr) => {
+    console.log(arr);
+
+    let sum = 0;
+    for(let element of arr) {
+        sum += element;
+    }
+    console.log(sum);
+}
+sumAll([10,45,88,99,443]);
+
+/// 02. use spread
+let sumAll2 = (...arr) => {
+    console.log(arr);
+    let sum = 0;
+    for(let element of arr) {
+        sum += element;
+    }
+    console.log(sum);
+}
+sumAll2(50,44,88,91); */
+
+// More useful
+let arr = [10,50,60];
+//Math.max(arr); // will show error
+
+
+let arr2 = [50,44,11];
+console.log(Math.max(...arr2)); // 50
+
+
+// Map, Sets - will use them later
