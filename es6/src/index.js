@@ -118,7 +118,7 @@ let sumAll2 = (...arr) => {
     console.log(sum);
 }
 sumAll2(50,44,88,91); */
-
+/*
 // More useful
 let arr = [10,50,60];
 //Math.max(arr); // will show error
@@ -127,5 +127,19 @@ let arr = [10,50,60];
 let arr2 = [50,44,11];
 console.log(Math.max(...arr2)); // 50
 
+*/
+// Map, Sets - will use them laterw'
 
-// Map, Sets - will use them later
+// Some best practices with ES6
+/// T01. Quickly logging to Console
+let name = 'Tu Nguyen';
+let age = 30;
+
+console.log({name, age}); // use object literal to log to console
+
+// T02. Coercing to a string
+let num = 2;
+let numString = `${num}`;
+console.log({num, numString}); // 
+
+
