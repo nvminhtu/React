@@ -132,7 +132,7 @@ console.log(Math.max(...arr2)); // 50
 
 // Some best practices with ES6
 /// T01. Quickly logging to Console
-let name = 'Tu Nguyen';
+/* let name = 'Tu Nguyen';
 let age = 30;
 
 console.log({name, age}); // use object literal to log to console
@@ -142,4 +142,40 @@ let num = 2;
 let numString = `${num}`;
 console.log({num, numString}); // 
 
+// T03. Array destructing
+let a=3, b=4;
+[a,b] = [b,a];
 
+// T04. Concating Array
+arr1 = ['London','Shanghai','Singapore','Bangkok'];
+arr2 = ['Boston','Mexico City'];
+
+arrAll=[...arr1,'Hochiminh City','Danang',...arr2];
+console.log(arrAll);
+*/
+
+// Code Classes 
+class Person {                                          // The 'class' keyword
+    constructor(name, age) {                            // Constructors
+        this.name = name;
+        this.age = age;
+    }
+}
+
+class Developer extends Person {                        // The 'extends' keyword
+    constructor(name, age, ...languages) {              // Rest parameters
+        super(name, age);                               // Super calls
+        this.languages = [...languages];                // The spread operator
+    }
+    printLanguages() {                                  // Short method definitions
+        for(let lang of this.languages) {               // The for..of loop
+            console.log(lang);
+        }
+    }
+}
+
+let me = new Developer("Tu", 30, "ES5", "ES6");     // Block scoping
+let myFriend = new Developer("Dai",30,"React","Vue"); // test
+
+console.log(me);
+console.log(myFriend);
