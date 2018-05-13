@@ -4,13 +4,15 @@ class Note extends React.Component{
         this.state = {
             hocVien : 10
         }
+        // cach khac fix
+       // this.themHocVien = this.themHocVien.bind(this);
     }
     themHocVien = () => { // them ham arrow de fix loi setState ( xu ly this)
         this.setState({
             hocVien: this.state.hocVien + 1
         })
     }
-   
+    
     render() {
         return (
             <div>
@@ -20,10 +22,18 @@ class Note extends React.Component{
                 <button>Xóa</button>
                 <button onClick={this.themHocVien}>Thêm học viên</button>
             </div>
-        );
+        ); // hoac cal this.themHocVien.bind(this)
     }
 }
 
+// set defaultProps
+Note.defaultProps = {
+    txt: 'Xin chào em!!'
+}
 
-ReactDOM.render(<Note txt="Welcome Note Component" />,
+ReactDOM.render(
+    <div>
+        <Note />
+        <Note txt="Welcome Note Component" />
+    </div>,
     document.getElementById('root'));
