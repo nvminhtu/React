@@ -5,6 +5,12 @@ class Note extends React.Component{
             hocVien : 10
         }
     }
+    themHocVien = () => { // them ham arrow de fix loi setState ( xu ly this)
+        this.setState({
+            hocVien: this.state.hocVien + 1
+        })
+    }
+   
     render() {
         return (
             <div>
@@ -12,6 +18,7 @@ class Note extends React.Component{
                 <p>Số lượng học viên: {this.state.hocVien}</p>
                 <br /><br/>
                 <button>Xóa</button>
+                <button onClick={this.themHocVien}>Thêm học viên</button>
             </div>
         );
     }
