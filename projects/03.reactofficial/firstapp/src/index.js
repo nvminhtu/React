@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Detail from './pages/detail';
 import './index.css';
-
 
 class ShoppingList extends React.Component {
     render(){
@@ -21,6 +21,9 @@ class ShoppingList extends React.Component {
 // ========================================
 
 ReactDOM.render(
-  <ShoppingList shopName='Xudi Garden'></ShoppingList>,
+  <div>
+    <ShoppingList shopName='Xudi Garden'></ShoppingList>
+    <Detail message='This is my message' />
+  </div>,
   document.getElementById('root')
 );
