@@ -1,4 +1,4 @@
-// import React from 'react';
+/* import React from 'react';
 //import React from './react';
 //var React = require('react');
 
@@ -12,11 +12,5 @@ var TuNguyen = React.createClass({
 });
 
 let a = "what the news?";
+ */
 
-ReactDOM.render(
-    <div>
-       <h1>I am Tu</h1>
-    </div>
-
-    ,document.getElementById('root')
-);

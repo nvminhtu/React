@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <script crossorigin src="react.js"></script>
-    <script crossorigin src="reactdom.js"></script>
+    <!-- <script crossorigin src="react.js"></script>
+    <script crossorigin src="reactdom.js"></script> -->
+    <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.js"></script>
+<script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/15.6.1/react-dom.js"></script>
     <!-- Load Babel -->
-    <script src="babel.js"></script>
-    <script type="text/babel" src="vidu1.js"></script>
+    <!-- <script src="babel.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <!-- <script type="text/babel" src="vidu1.js"></script> -->
 </head>
 <body>
     <div id="root"></div>
+    <script type="text/babel">
+           // var Dai = React.createClass();
+           const Contacts = React.createClass({
+            render() {
+                return (
+                <div>I am a frontend developer</div>
+                );
+            }
+            });
+
+
+            ReactDOM.render(
+                <div>
+                    <Contacts />
+                    <h1>I am Tu</h1>
+                </div>
+
+            ,document.getElementById('root')
+        );
+    </script>
 </body>
 </html>
