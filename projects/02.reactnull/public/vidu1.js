@@ -1,15 +1,22 @@
 // import React from 'react';
+//import React from './react';
+//var React = require('react');
+
+
 var TuNguyen = React.createClass({
     render: function () {
         return (
-
+            <h1>I am Tu</h1>
         );
     }
 });
 
+let a = "what the news?";
+
 ReactDOM.render(
-    <h1>ReactJS Khoa Pham</h1>
-    
+    <div>
+       <h1>I am Tu</h1>
+    </div>
 
     ,document.getElementById('root')
 );
